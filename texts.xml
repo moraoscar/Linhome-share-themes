@@ -934,8 +934,8 @@
 	<!-- Error -->
 	
 	<section name="unable_to_call_device">
-		<entry name="default">An error occured, please try again.</entry>
-		<entry name="fr">Une erreur est survenue, rééessayer ultérieurement.</entry>
+		<entry name="default">The device could not be reached. Check its configuration inside the app.</entry>
+		<entry name="fr">L'Appareil n'a pas pu être contacté. vérifiez qu'il est bien configuré dans l'application.</entry>
 	</section>
 	
 
