@@ -1,0 +1,1034 @@
+<config xmlns="http://www.linphone.org/xsds/lpconfig.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.linphone.org/xsds/lpconfig.xsd lpconfig.xsd">
+	
+	
+	<!--
+	 
+	 <section name="text_key">
+	 	<entry name="default">Text displayed if no translation found</entry>
+	 	<entry name="fr">French translation  </entry>
+	 	<entry name="en">English translation  </entry>
+	 	<entry name="it">Italian translation  </entry>
+		.....
+	 </section>
+	 
+	 -->
+	
+	
+	<section name="appname">
+		<entry name="default">Lindoor</entry>
+	</section>
+
+	<section name="splash_title">
+		<entry name="default">The customisable app for IP intercom systems</entry>
+		<entry name="fr">L'app customisable pour les systèmes intercom IP</entry>
+	</section>
+
+	<section name="devices">
+		<entry name="default">Devices</entry>
+		<entry name="fr">Appareils</entry>
+	</section>
+
+	<section name="history">
+		<entry name="default">History</entry>
+		<entry name="fr">Historique</entry>
+	</section>
+
+	<section name="assistant">
+		<entry name="default">Assistant</entry>
+		<entry name="fr">Assistant</entry>
+	</section>
+
+
+	<!-- history -->
+
+	<section name="history_no_media_found">
+		<entry name="default">No media available</entry>
+		<entry name="fr">Aucun extrait disponible</entry>
+	</section>
+
+
+	<section name="history_unregistered_device">
+		<entry name="default">Unregistered device</entry>
+		<entry name="fr">Appareil non enregistré</entry>
+	</section>
+
+	<section name="history_call_new">
+		<entry name="default">new</entry>
+		<entry name="fr">nouveau</entry>
+	</section>
+
+	<section name="history_list_call_date_type">
+		<entry name="default">{0} at {1}</entry>
+		<entry name="fr">{0} à {1}</entry>
+	</section>
+
+	<section name="history_list_call_type_missed">
+		<entry name="default">Missed</entry>
+		<entry name="fr">Manqué</entry>
+	</section>
+
+	<section name="history_list_call_type_declined">
+		<entry name="default">Declined</entry>
+		<entry name="fr">Décliné</entry>
+	</section>
+
+
+	<section name="history_list_call_type_accepted">
+		<entry name="default">Accepted</entry>
+		<entry name="fr">Accepté</entry>
+	</section>
+
+	<section name="history_list_call_type_called">
+		<entry name="default">Called</entry>
+		<entry name="fr">Appelé</entry>
+	</section>
+
+	<section name="history_list_call_type_aborted">
+		<entry name="default">Aborted</entry>
+		<entry name="fr">Annulé</entry>
+	</section>
+	
+	<section name="history_select_all">
+		<entry name="default">Select all</entry>
+		<entry name="fr">Tout sélectionner</entry>
+	</section>
+
+	<section name="history_deselect_all">
+		<entry name="default">Deselect all</entry>
+		<entry name="fr">Tout désélectionner</entry>
+	</section>
+	
+	<section name="delete_history_confirm_message">
+		<entry name="default">Delete {0} event(s) ?</entry>
+		<entry name="fr">Supprimer {0} évènement(s) ?</entry>
+	</section>
+	
+	<section name="history_empty_list_title">
+		<entry name="default">No history events</entry>
+		<entry name="fr">Aucun évènements dans l'historique</entry>
+	</section>
+	
+
+
+	<!--  Menus  -->
+
+	<section name="menu_assistant">
+		<entry name="default">Account assistant</entry>
+		<entry name="fr">Assistant de compte</entry>
+	</section>
+
+	<section name="menu_account">
+		<entry name="default">My account</entry>
+		<entry name="fr">Mon compte</entry>
+	</section>
+
+	<section name="menu_settings">
+		<entry name="default">Settings</entry>
+		<entry name="fr">Réglages</entry>
+	</section>
+
+	<section name="menu_about">
+		<entry name="default">About</entry>
+		<entry name="fr">À propos</entry>
+	</section>
+
+	<section name="menu_disconnect">
+		<entry name="default">Disconnect account</entry>
+		<entry name="fr">Déconnexion du compte</entry>
+	</section>
+	
+	
+	<section name="disconnect_confirm_message">
+		<entry name="default">Would you like to disconnect your account ?</entry>
+		<entry name="fr">Voulez-vous déconnecter votre compte ?</entry>
+	</section>
+	
+
+	
+	<!--  Assistant  -->
+
+	
+	<section name="assistant_welcome_title">
+		<entry name="default">Welcome</entry>
+		<entry name="fr">Bienvenue</entry>
+	</section>
+
+	<section name="assistant_welcome_subtitle">
+		<entry name="default">This assistant will help you configure your account.</entry>
+		<entry name="fr">Cet assistant vous permet de configurer votre compte.</entry>
+	</section>
+
+	<section name="assistant_create_lindoor_account">
+		<entry name="default">Create a {appname} account</entry>
+		<entry name="fr">Créer un compte {appname}</entry>
+	</section>
+
+	<section name="assistant_use_lindoor_account">
+		<entry name="default">Use a {appname} account</entry>
+		<entry name="fr">Utiliser un compte {appname}</entry>
+	</section>
+
+	<section name="assistant_use_sip_account">
+		<entry name="default">Use your SIP account</entry>
+		<entry name="fr">Utiliser votre compte SIP</entry>
+	</section>
+
+	<section name="assistant_remote_prov">
+		<entry name="default">Remote configuration</entry>
+		<entry name="fr">Configuration distante</entry>
+	</section>
+
+	<section name="assistant_remote_url">
+		<entry name="default">From a URL</entry>
+		<entry name="fr">Depuis une URL</entry>
+	</section>
+	
+	<section name="assistant_remote_prov_from_url">
+		<entry name="default">Remote configuration from a URL</entry>
+		<entry name="fr">Configuration distante depuis une URL</entry>
+	</section>
+
+
+	<section name="assistant_remote_prov_from_url_infobubble">
+		<entry name="default">Lorem ipsum dolor sit amet lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet lorem ipsum dolor sit amet.</entry>
+	</section>
+
+	<section name="remote_configuration_success">
+		<entry name="default">Remote configuration successfully applied</entry>
+		<entry name="fr">La configuration distante a été effectuée avec succès</entry>
+	</section>
+	
+	<section name="remote_configuration_failed">
+		<entry name="default">Remote configuration failed</entry>
+		<entry name="fr">La configuration distante a échouée.</entry>
+	</section>
+	
+	<section name="remote_configuration_skipped">
+		<entry name="default">Remote configuration skipped</entry>
+	</section>
+
+	<section name="url">
+		<entry name="default">URL</entry>
+		<entry name="fr">URL</entry>
+	</section>
+	
+	<section name="assistant_remote_qr">
+		<entry name="default">From a QR code</entry>
+		<entry name="fr">Via un QR Code</entry>
+	</section>
+	
+	<section name="assistant_remote_from_qr">
+		<entry name="default">Remote configuration from a QR code</entry>
+		<entry name="fr">Configuration distante via un QR Code</entry>
+	</section>
+	
+	<section name="assistant_remote_from_qr_desc">
+		<entry name="default">Please scan the QR code that you generated.</entry>
+		<entry name="fr">Scannez le QR code que vous avez généré.</entry>
+	</section>
+
+	<section name="assistant_remote_prov_from_qr_infobubble">
+		<entry name="default">Lorem ipsum dolor sit amet lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet lorem ipsum dolor sit amet.</entry>
+	</section>
+	
+	
+	<section name="username">
+		<entry name="default">Username</entry>
+		<entry name="fr">Nom d'utilisateur</entry>
+	</section>
+
+	<section name="email">
+		<entry name="default">E-mail</entry>
+		<entry name="fr">E-Mail</entry>
+	</section>
+
+	<section name="password">
+		<entry name="default">Password</entry>
+		<entry name="fr">Mot de passe</entry>
+	</section>
+
+	<section name="password_confirmation">
+		<entry name="default">Password confirmation</entry>
+		<entry name="fr">Confirmation du mot de passe</entry>
+	</section>
+
+	<section name="create_account">
+		<entry name="default">Create account</entry>
+		<entry name="fr">Créer le compte</entry>
+	</section>
+	
+	<section name="login">
+		<entry name="default">Login</entry>
+		<entry name="fr">Se connecter</entry>
+	</section>
+
+	<section name="input_invalid_empty_field">
+		<entry name="default">Mandatory field</entry>
+		<entry name="fr">Ce champ est obligatoire</entry>
+	</section>
+	
+	<section name="input_invalid_format_uri">
+		<entry name="default">Invalid URI format</entry>
+		<entry name="fr">Format d'url invalide</entry>
+	</section>
+	
+	<section name="invalid_host_name">
+		<entry name="default">Invalid address format</entry>
+		<entry name="fr">Format d'adresse incorrect</entry>
+	</section>
+	
+	
+	<section name="invalid_number">
+		<entry name="default">Invalid number format</entry>
+		<entry name="fr">Valeur incorrecte</entry>
+	</section>
+	
+	<section name="invalid_sip_uri">
+		<entry name="default">Invalid SIP Format (sip: or sips:...) </entry>
+		<entry name="fr">Format SIP incorrect  (sip: ou sips:...)</entry>
+	</section>
+	
+	<section name="invalid_action_code">
+		<entry name="default">0-9 # *</entry>
+		<entry name="fr">0-9 # *</entry>
+	</section>
+	
+	<section name="action_type_missing">
+		<entry name="default">Select an action</entry>
+		<entry name="fr">Selectionner une action</entry>
+	</section>
+		
+	
+	<section name="proxy">
+		<entry name="default">proxy</entry>
+		<entry name="fr">proxy</entry>
+	</section>
+	
+	<section name="register_expiration">
+		<entry name="default">Registration expiration</entry>
+		<entry name="fr">Expiration de l'enregistrement</entry>
+	</section>
+		
+	
+	<section name="account_creator_username_too_short">
+		<entry name="default">Username too short</entry>
+		<entry name="fr">Nom d'utilisateur trop court</entry>
+	</section>
+	
+	
+	<section name="account_creator_username_too_long">
+		<entry name="default">Username too long</entry>
+		<entry name="fr">Nom d'utilisateur trop long</entry>
+	</section>
+	
+	
+	<section name="account_creator_username_invalid_characters">
+		<entry name="default">Invalid characters</entry>
+		<entry name="fr">Caractètres non valides</entry>
+	</section>
+	
+	
+	<section name="account_creator_username_invalid">
+		<entry name="default">Invalid username</entry>
+		<entry name="fr">Nom d'utilisateur incorrect</entry>
+	</section>
+	
+	
+	<section name="account_creator_password_too_short">
+		<entry name="default">Password too short</entry>
+		<entry name="fr">Mot de passe trop court</entry>
+	</section>
+	
+	
+	<section name="account_creator_password_too_long">
+		<entry name="default">Password too long</entry>
+		<entry name="fr">Mot de passe trop long</entry>
+	</section>
+	
+	
+	<section name="account_creator_password_invalid_characters">
+		<entry name="default">Invalid characters</entry>
+		<entry name="fr">Caractèters non valides</entry>
+	</section>
+	
+	
+	<section name="account_creator_password_missingchars">
+		<entry name="default">Password missing characters</entry>
+		<entry name="fr">Caractères manquants</entry>
+	</section>
+	
+	
+	<section name="account_creator_email_malformed">
+		<entry name="default">Invalid Email format</entry>
+		<entry name="fr">Format d'émail incorrect</entry>
+	</section>
+	
+	<section name="account_creator_email_invalid_characters">
+		<entry name="default">Invalid characters</entry>
+		<entry name="fr">Caractèters non valides</entry>
+	</section>
+	
+	<section name="account_creator_domain_invalid">
+		<entry name="default">Invalid domain name</entry>
+		<entry name="fr">Nom de domain incorrect</entry>
+	</section>
+		
+	<section name="input_password_do_not_match">
+		<entry name="default">Passwords do not match.</entry>
+		<entry name="fr">Les mots de passe de correspondent pas.</entry>
+	</section>
+
+	<section name="lindoor_account_username_already_exists">
+		<entry name="default">This username is already used.</entry>
+		<entry name="fr">Ce nom d’utilisateur est déjà utilisé.</entry>
+	</section>
+	
+	
+	<section name="lindoor_account_loggedin">
+		<entry name="default">{appname} account connected.</entry>
+		<entry name="fr">Compte {appname} connecté.</entry>
+	</section>
+	
+	<section name="lindoor_account_login_failed_unknown_user_or_wroong_password">
+		<entry name="default">Unknown username or incorrect password</entry>
+		<entry name="fr">Utilisateur inconnu ou mot de passe incorrect</entry>
+	</section>
+		
+	<section name="sip_account_created">
+		<entry name="default">sip account configured.</entry>
+		<entry name="fr">Compte sip configuré.</entry>
+	</section>
+	
+	<section name="failed_creating_pushgateway">
+		<entry name="default">Push notifications could not be configured.</entry>
+		<entry name="fr">Les notification "push" n'ont pû être activées.</entry>
+	</section>
+	
+	
+	<section name="more_settings">
+		<entry name="default">More settings</entry>
+		<entry name="fr">Plus d'options</entry>
+	</section>
+	
+	<section name="domain">
+		<entry name="default">SIP Domain</entry>
+		<entry name="fr">Domaine SIP</entry>
+	</section>
+	
+	<section name="transport">
+		<entry name="default">Transport</entry>
+		<entry name="fr">Transport</entry>
+	</section>
+	
+	
+	<!-- permissions -->
+	
+	<section name="camera_permission_denied_dont_ask_again">
+		<entry name="default">You need to allow camera permission for {appname} inside phone settings</entry>
+		<entry name="fr">Vous devez autorisez l'utilisation de l'appareil photo à {appname} dans les réglages de votre appareil</entry>
+	</section>
+	
+	<section name="camera_permission_denied">
+		<entry name="default">You need to allow camera permission to scan a QR Code</entry>
+		<entry name="fr">Vous devez autorisez l'utilisation de l'appareil photo pour scanner un code QR</entry>
+	</section>
+	
+	<section name="record_audio_permission_denied">
+		<entry name="default">You need to allow audio recording permission to make a call</entry>
+		<entry name="fr">Vous devez autorisez l'utilisation du microhone pour passer un appel</entry>
+	</section>
+	
+	<section name="record_audio_permission_denied_dont_ask_again">
+		<entry name="default">You need to allow audio recording permission for {appname} inside phone settings</entry>
+		<entry name="fr">Vous devez autorisez l'utilisation de du microphone à {appname} dans les réglages de votre appareil</entry>
+	</section>
+	
+	<section name="write_external_storage_permission_denied">
+		<entry name="default">You need to allow external storage write access to store call recordings</entry>
+		<entry name="fr">Vous devez autorisez l'accès au stockage pour vos enregistrements</entry>
+	</section>
+	
+	<section name="write_external_storage_permission_denied_dont_ask_again">
+		<entry name="default">You need to allow external storage write access to store call recordingfor {appname} inside phone settings</entry>
+		<entry name="fr">Vous devez autorisez l'accès au stockage pour vos enregistrements à {appname} dans les réglages de votre appareil</entry>
+	</section>
+	
+	
+	
+	<!-- Account -->
+	
+	<section name="delete_account">
+		<entry name="default">Delete account</entry>
+		<entry name="fr">Supprimer le compte</entry>
+	</section>
+	
+	<section name="change_password">
+		<entry name="default">Change password</entry>
+		<entry name="fr">Modifier le mot de passe</entry>
+	</section>
+	
+	<section name="no_account">
+		<entry name="default">No Account configured</entry>
+		<entry name="fr">Aucun compte configuré</entry>
+	</section>
+	
+	
+	<section name="account_info">
+		<entry name="default">Account: {0} \n {1}</entry>
+		<entry name="fr">Compte: {0} \n {1}</entry>
+	</section>
+	
+	<section name="no_account_configured">
+		<entry name="default">No accounts configured</entry>
+		<entry name="fr">Aucun compte configuré</entry>
+	</section>
+	
+	
+	
+	<section name="push_account_info">
+		<entry name="default">Push Account: {0} \n {1}</entry>
+		<entry name="fr">Compte de notifications pushs: {0} \n {1}</entry>
+	</section>
+	
+	<section name="refresh_registers">
+		<entry name="default">Refresh registration</entry>
+		<entry name="fr">Mettre à jour l'enregistrement</entry>
+	</section>
+	
+	<section name="account_manage_on_freesip_title">
+		<entry name="default">{appname} account management</entry>
+		<entry name="fr">Gestion du compte {appname} </entry>
+	</section>
+	
+	<section name="account_manage_on_freesip_message">
+		<entry name="default">{appname} account management is made through the web browser. Note if you delete or change password on your account you will need to disconnect (and reconnect if needed) inside the app for the new parameters</entry>
+		<entry name="fr">La gestion du compte {appname} s'effectue par navigateur WEB. Si le mot de passe est modifié ou le compte supprimé vous devez vous deconnecter depuis l'app (et vous reconnecter le cas échéant)</entry>
+	</section>
+	
+	
+
+	<!-- Registration states -->
+	
+	<section name="registration_state_none">
+		<entry name="default">Not registered yet</entry>
+		<entry name="fr">Pas encore enregistré</entry>
+	</section>
+	
+	<section name="registration_state_progress">
+		<entry name="default">Registration in progress</entry>
+		<entry name="fr">Enregistrement en cours</entry>
+	</section>
+	
+	<section name="registration_state_ok">
+		<entry name="default">Registered</entry>
+		<entry name="fr">Enregistré</entry>
+	</section>
+	
+	<section name="registration_state_failed">
+		<entry name="default">Registration failed</entry>
+		<entry name="fr">Échec de l'enregistrement</entry>
+	</section>
+	
+	<section name="registration_state_cleared">
+		<entry name="default">Unregistered</entry>
+		<entry name="fr">Désenregistré</entry>
+	</section>
+	
+
+	<!-- Settings -->
+
+	<section name="audio_codecs">
+		<entry name="default">Audio codecs</entry>
+		<entry name="fr">Codecs Audio</entry>
+	</section>
+
+	<section name="video_codecs">
+		<entry name="default">Video codecs</entry>
+		<entry name="fr">Codecs Vidéo</entry>
+	</section>
+	
+	<section name="log_upload_failed">
+		<entry name="default">An error occured try again later.</entry>
+		<entry name="fr">Une erreur est survenue, rééssayer plus tard.</entry>
+	</section>
+	
+	<section name="log_upload_success">
+		<entry name="default">Log successfully uploaded. URL copied to clipboard</entry>
+		<entry name="fr">Fichier de diagnostic envoyé. L'URL est copiée dans le presse-papier.</entry>
+	</section>
+	
+	
+	<section name="support_email_android">
+		<entry name="default">lindoor-android@belledonne-communications.com</entry>
+	</section>
+	
+	<section name="support_email_ios">
+		<entry name="default">lindoor-ios@belledonne-communications.com</entry>
+	</section>
+	
+	<section name="enable_debuglogs">
+		<entry name="default">Enable Debug Log</entry>
+		<entry name="fr">Activer les diagnostics.</entry>
+	</section>
+	
+	<section name="clear_logs">
+		<entry name="default">Delete log file</entry>
+		<entry name="fr">Supprimer le fichier de diagnostics</entry>
+	</section>
+
+	
+	<section name="log_clear_success">
+		<entry name="default">Log file deleted</entry>
+		<entry name="fr">Fichier de diagnostics supprimé</entry>
+	</section>
+	
+	
+	<section name="send_logs">
+		<entry name="default">Send Log file</entry>
+		<entry name="fr">Envoyer le fichier de diagnostics</entry>
+	</section>
+	
+	<section name="enable_ipv6">
+		<entry name="default">Enable IP V6</entry>
+		<entry name="fr">Activer IP V6</entry>
+	</section>
+
+	<section name="media_encryption">
+		<entry name="default">Media encryption</entry>
+		<entry name="fr">Chiffrement média </entry>
+	</section>
+	
+	
+	<section name="settings_device_show_latest_snapshot">
+		<entry name="default">Display most recent capture in device list</entry>
+		<entry name="fr">Afficher la dernière capture dans la liste des appareil</entry>
+	</section>
+	
+
+	
+	
+	
+	<!-- Devices-->
+	
+	
+	
+	<section name="device_info_actions_title">
+		<entry name="default">Actions configured</entry>
+		<entry name="fr">Actions configurées</entry>
+	</section>
+
+	<section name="device_info_no_actions_title">
+		<entry name="default">No actions configured</entry>
+		<entry name="fr">Aucunes actions configurées</entry>
+	</section>
+	
+		<section name="delete_device_confirm_message">
+		<entry name="default">Delete device {0} ?</entry>
+		<entry name="fr">Supprimer l'appareil {0} ?</entry>
+	</section>
+	
+	
+	<section name="devices_empty_list_title">
+		<entry name="default">Configure your IP video doorbells, security cameras and internal units, to see what is happening out there or call to your home.</entry>
+		<entry name="fr">Configurez vos portiers vidéos, caméras de sécurité et unités internes pour appeler ou voir ce qu'il se passe chez vous</entry>
+	</section>
+	
+	<section name="new_device">
+		<entry name="default">New device</entry>
+		<entry name="fr">Nouvel appareil</entry>
+	</section>
+	
+	<section name="device_name">
+		<entry name="default">Device name</entry>
+		<entry name="fr">Nom de l'appareil</entry>
+	</section>
+	
+	<section name="device_address">
+		<entry name="default">SIP Address</entry>
+		<entry name="fr">Adresse SIP</entry>
+	</section>
+
+	<section name="device_address_already_exists">
+		<entry name="default">A device with this address already exists ({0})</entry>
+		<entry name="fr">Un appareil avec cette adresse est déjà défini ({0})</entry>
+	</section>
+
+
+	
+	<section name="device_address_hint">
+		<entry name="default">ex : sip:1234@sip.lindoor.org</entry>
+	</section>
+		
+	<section name="device_type_select">
+		<entry name="default">Select the type of device</entry>
+		<entry name="fr">Selectionner le type d'appareil</entry>
+	</section>
+	
+	<section name="device_type_select_prompt">
+		<entry name="default">Select the type</entry>
+		<entry name="fr">Selectionner le type</entry>
+	</section>
+	
+	<section name="method_type_select">
+		<entry name="default">Configure actions (optional)</entry>
+		<entry name="fr">Configurer des actions (optionnel)</entry>
+	</section>
+	
+
+	<section name="action_method">
+		<entry name="default">Method</entry>
+		<entry name="fr">Méthode</entry>
+	</section>
+	
+	<section name="action_method_prompt">
+		<entry name="default">Select the method</entry>
+		<entry name="fr">Selectionner la méthode</entry>
+	</section>
+	
+	
+	<section name="method_dtmf_sip_info">
+		<entry name="default">DTMF (SIP INFO)</entry>
+	</section>
+	
+	<section name="method_dtmf_rfc_4733">
+		<entry name="default">DTMF (RFC 4733)</entry>
+	</section>
+	
+	<section name="method_sip_message">
+		<entry name="default">SIP Message</entry>
+		<entry name="fr">Message SIP</entry>
+	</section>
+	
+	
+	<section name="action">
+		<entry name="default">action</entry>
+		<entry name="fr">action</entry>
+	</section>
+	
+	
+	<section name="action_prompt">
+		<entry name="default">Select an action</entry>
+		<entry name="fr">Selectionner une action</entry>
+	</section>
+	
+	<section name="action_open_door">
+		<entry name="default">Open a door</entry>
+		<entry name="fr">Ouvrir une porte</entry>
+	</section>
+	
+	
+	<section name="action_open_gate">
+		<entry name="default">Open a gate</entry>
+		<entry name="fr">Ouvrir un portail</entry>
+	</section>
+	
+	<section name="action_open_gate">
+		<entry name="default">Open a gate</entry>
+		<entry name="fr">Ouvrir un portail</entry>
+	</section>
+	
+	<section name="action_lightup">
+		<entry name="default">Light up</entry>
+		<entry name="fr">Eclairer</entry>
+	</section>
+
+	<section name="action_unlock">
+		<entry name="default">Unlock a lock</entry>
+		<entry name="fr">Dévérouiller un cadenas</entry>
+	</section>
+	
+	<section name="action_code">
+		<entry name="default">Code</entry>
+		<entry name="fr">Code</entry>
+	</section>
+	
+	
+	<section name="device_video_intercom">
+		<entry name="default">Video intercom</entry>
+		<entry name="fr">Portier vidéo</entry>
+	</section>
+	
+	
+	<section name="device_audio_intercom">
+		<entry name="default">Audio intercom</entry>
+		<entry name="fr">Portier audio</entry>
+	</section>
+	
+	<section name="device_security_camera">
+		<entry name="default">Security camera</entry>
+		<entry name="fr">Caméra de sécurité</entry>
+	</section>
+	
+	<section name="device_internal_unit">
+		<entry name="default">Internal unit</entry>
+		<entry name="fr">Unité interne</entry>
+	</section>
+		
+	<section name="device_action">
+		<entry name="default">Action</entry>
+		<entry name="fr">Action</entry>
+	</section>
+	
+	<section name="device_action_select">
+		<entry name="default">Select a action</entry>
+		<entry name="fr">Selectionner une action</entry>
+	</section>
+	
+	<section name="device_action_add">
+		<entry name="default">Add an action</entry>
+		<entry name="fr">Ajouter une action</entry>
+	</section>
+	
+	<section name="delete_device">
+		<entry name="default">Delete the device</entry>
+		<entry name="fr">Supprimer l'appareil</entry>
+	</section>
+	
+	
+	
+	<!-- about -->
+
+	<section name="about_link">
+		<entry name="default">www.lindoor.org</entry>
+	</section>
+
+	
+	<section name="app_version">
+		<entry name="default">{appname} {0} {1}</entry>
+	</section>
+	
+	
+	<section name="sdk_version">
+		<entry name="default">Linphone Core {0}</entry>
+	</section>
+	
+	<section name="license_text">
+		<entry name="default">GNU General Public License V3</entry>
+	</section>
+	
+	<section name="copyright_text">
+		<entry name="default">© Belledonne Communications</entry>
+	</section>
+
+	
+	<!-- dialogs & generic words -->
+	
+	<section name="ok">
+		<entry name="default">Ok</entry>
+	</section>
+	
+	<section name="cancel">
+		<entry name="default">Cancel</entry>
+		<entry name="fr">Annuler</entry>
+	</section>
+		
+	<section name="confirm">
+		<entry name="default">Confirm</entry>
+		<entry name="fr">Confirmer</entry>
+	</section>
+	
+	<section name="yes">
+		<entry name="default">Yes</entry>
+		<entry name="fr">Oui</entry>
+	</section>
+	
+	<section name="no">
+		<entry name="default">No</entry>
+		<entry name="fr">Non</entry>
+	</section>
+	
+	<section name="apply">
+		<entry name="default">Apply</entry>
+		<entry name="fr">Appliquer</entry>
+	</section>
+
+	<section name="generic_dialog_error_title">
+		<entry name="default">Error</entry>
+		<entry name="fr">Erreur</entry>
+	</section>
+
+	<section name="none">
+		<entry name="default">None</entry>
+		<entry name="fr">Aucun</entry>
+	</section>
+	
+	<section name="save">
+		<entry name="default">Save</entry>
+		<entry name="fr">Enregistrer</entry>
+	</section>
+
+	<section name="select">
+		<entry name="default">Select</entry>
+		<entry name="fr">Selectionner</entry>
+	</section>
+	
+	<section name="edit">
+		<entry name="default">Edit</entry>
+		<entry name="fr">Éditer</entry>
+	</section>
+
+	<section name="today">
+		<entry name="default">Today</entry>
+		<entry name="fr">Aujourd'hui</entry>
+	</section>
+
+	<section name="yesterday">
+		<entry name="default">Yesterday</entry>
+		<entry name="fr">Hier</entry>
+	</section>
+	
+	<!-- Call View -->
+	
+	<section name="incoming_someone_at_your_door">
+		<entry name="default">Someone is at your door ...</entry>
+		<entry name="fr">Quelqu'un est à votre porte ...</entry>
+	</section>
+
+	<section name="call_button_accept">
+		<entry name="default">Accept</entry>
+		<entry name="fr">Décrocher</entry>
+	</section>
+
+	<section name="call_button_decline">
+		<entry name="default">Decline</entry>
+		<entry name="fr">Raccrocher</entry>
+	</section>
+	
+	<section name="call_button_cancel">
+		<entry name="default">Cancel</entry>
+		<entry name="fr">Annuler</entry>
+	</section>
+		
+	
+	<section name="call_button_hangup">
+		<entry name="default">Hang up</entry>
+		<entry name="fr">Raccrocher</entry>
+	</section>
+
+	<section name="call_button_mute">
+		<entry name="default">Mute micrphone</entry>
+		<entry name="fr">Désactiver le microphone</entry>
+	</section>
+	
+	<section name="call_button_unmute">
+		<entry name="default">Unmute micrphone</entry>
+		<entry name="fr">Activer le microphone</entry>
+	</section>
+
+	
+	<section name="call_button_enable_speaker">
+		<entry name="default">Enable speaker</entry>
+		<entry name="fr">Activer le haut-parleur</entry>
+	</section>
+	
+	<section name="call_button_disable_speaker">
+		<entry name="default">Disable speaker</entry>
+		<entry name="fr">Désactiver le haut-parleur</entry>
+	</section>
+	
+	
+	<!-- Error -->
+	
+	<section name="unable_to_call_device">
+		<entry name="default">An error occured, please try again.</entry>
+		<entry name="fr">Une erreur est survenue, rééessayer ultérieurement.</entry>
+	</section>
+	
+
+
+	
+	<!-- notification -->
+	
+	<section name="notif_incoming_call_title">
+		<entry name="default">Incoming call</entry>
+		<entry name="fr">Appel entrant</entry>
+	</section>
+	
+	<section name="notif_missed_call_title">
+		<entry name="default">Missed call(s)</entry>
+		<entry name="fr">Appel manqué(s)</entry>
+	</section>
+	
+	<section name="notif_missed_calls">
+		<entry name="default">{0} missed calls</entry>
+		<entry name="fr">{0} appels manqués</entry>
+	</section>
+	
+	<section name="notif_missed_call">
+		<entry name="default">missed call from {0}</entry>
+		<entry name="fr">appel manqué de {0}</entry>
+	</section>
+	
+	<section name="notif_outgoing_call">
+		<entry name="default">Outgoing call</entry>
+		<entry name="fr">Appel sortant</entry>
+	</section>
+	
+	<section name="notif_in_call">
+		<entry name="default">Call in progress</entry>
+		<entry name="fr">Appel en cours</entry>
+	</section>
+	
+	
+	<!-- Android specific texts start-->
+
+    <section name="lindoor_service_id">
+        <entry name="default">lindoor_service_id</entry>
+    </section>
+
+    <section name="notification_channel_incoming_call_id">
+        <entry name="default">lindoor_notification_channel_incoming_call_id</entry>
+    </section>
+	
+
+	<section name="notification_channel_service_name">
+		<entry name="default">{appname} service</entry>
+		<entry name="fr">Service {appname}</entry>
+	</section>
+
+	<section name="notification_channel_incoming_call_name">
+		<entry name="default">{appname} Incoming call</entry>
+		<entry name="fr">{appname} Appel entrant</entry>
+	</section>
+
+	<section name="service_name">
+		<entry name="default">{appname} Service</entry>
+		<entry name="fr">Service {appname}</entry>
+	</section>
+
+	<section name="service_auto_start_description">
+		<entry name="default">{appname} has been started automatically</entry>
+		<entry name="fr">{appname} a été démarré automatiquement</entry>
+	</section>
+
+	<section name="service_description">
+		<entry name="default">This is required to receive calls while in background.</entry>
+		<entry name="fr">Ceci est requis pour recevoir des appels quand l'application est en arrière plan.</entry>
+	</section>
+
+    <section name="lindoor_account_created">
+        <entry name="default">Your {appname} account {0} has been created. You will receive a validation email shortly. Click on the link you received by email to finalize your account creation</entry>
+		<entry name="fr">Votre compte {appname} {0} a été crée. Vous allez recevoir un mail de validation. Cliquez sur le lien reçu par email pour finaliser la création du compte.</entry>
+    </section>
+	
+	<section name="lindoor_account_creation_failed">
+		<entry name="default">An error occured. Please try again later or contact support error code: {0}</entry>
+		<entry name="fr">Une erreur est survenue, rééessayer ultérieurement ou contacter le support code erreur: {0}</entry>
+	</section>
+
+	<section name="lindoor_account_creation_request_failed">
+		<entry name="default">Request failed. Please try again later or contact support.</entry>
+		<entry name="fr">Une erreur de requête est survenue, rééessayer ultérieurement ou contacter le support.</entry>
+	</section>
+
+	
+	
+	
+	
+	<!-- Android specifics end -->
+
+	
+	
+	
+
+</config>

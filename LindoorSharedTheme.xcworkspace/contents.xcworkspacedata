@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:action_types.xml">
+   </FileRef>
+   <FileRef
+      location = "group:device_types.xml">
+   </FileRef>
+   <Group
+      location = "group:fonts"
+      name = "fonts">
+      <FileRef
+         location = "group:Roboto-Medium.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:Roboto-Light.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:Roboto-Regular.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:Roboto-Italic.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:Roboto-Bold.ttf">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:images"
+      name = "images">
+      <Group
+         location = "group:others"
+         name = "others">
+         <FileRef
+            location = "group:lindoor_text.svg">
+         </FileRef>
+         <FileRef
+            location = "group:lindoor_icon.svg">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:icons"
+         name = "icons">
+         <FileRef
+            location = "group:informations.svg">
+         </FileRef>
+         <FileRef
+            location = "group:device_internal_unit.svg">
+         </FileRef>
+         <FileRef
+            location = "group:device_security_camera.svg">
+         </FileRef>
+         <FileRef
+            location = "group:assistant.svg">
+         </FileRef>
+         <FileRef
+            location = "group:icon_device_camera_circle.svg">
+         </FileRef>
+         <FileRef
+            location = "group:account.svg">
+         </FileRef>
+         <FileRef
+            location = "group:fullscreen_stop.svg">
+         </FileRef>
+         <FileRef
+            location = "group:disconnect.svg">
+         </FileRef>
+         <FileRef
+            location = "group:cancel.svg">
+         </FileRef>
+         <FileRef
+            location = "group:footer_devices.png">
+         </FileRef>
+         <FileRef
+            location = "group:burger_menu.svg">
+         </FileRef>
+         <FileRef
+            location = "group:gate.svg">
+         </FileRef>
+         <FileRef
+            location = "group:device_audio_intercom.svg">
+         </FileRef>
+         <FileRef
+            location = "group:footer_devices.svg">
+         </FileRef>
+         <FileRef
+            location = "group:settings.svg">
+         </FileRef>
+         <FileRef
+            location = "group:declined.svg">
+         </FileRef>
+         <FileRef
+            location = "group:icon_device_video_intercom_circle.svg">
+         </FileRef>
+         <FileRef
+            location = "group:decline.svg">
+         </FileRef>
+         <FileRef
+            location = "group:called.svg">
+         </FileRef>
+         <FileRef
+            location = "group:missed.svg">
+         </FileRef>
+         <FileRef
+            location = "group:device_video_intercom.svg">
+         </FileRef>
+         <FileRef
+            location = "group:mic.svg">
+         </FileRef>
+         <FileRef
+            location = "group:reload.svg">
+         </FileRef>
+         <FileRef
+            location = "group:qrcode_mask.svg">
+         </FileRef>
+         <FileRef
+            location = "group:save.svg">
+         </FileRef>
+         <FileRef
+            location = "group:back.svg">
+         </FileRef>
+         <FileRef
+            location = "group:play.svg">
+         </FileRef>
+         <FileRef
+            location = "group:accepted.svg">
+         </FileRef>
+         <FileRef
+            location = "group:speaker.svg">
+         </FileRef>
+         <FileRef
+            location = "group:footer_history.svg">
+         </FileRef>
+         <FileRef
+            location = "group:audio_media.svg">
+         </FileRef>
+         <FileRef
+            location = "group:more.svg">
+         </FileRef>
+         <FileRef
+            location = "group:about.svg">
+         </FileRef>
+         <FileRef
+            location = "group:edit.svg">
+         </FileRef>
+         <FileRef
+            location = "group:chevron_down.svg">
+         </FileRef>
+         <FileRef
+            location = "group:unlock.svg">
+         </FileRef>
+         <FileRef
+            location = "group:icon_device_audio_intercom_circle.svg">
+         </FileRef>
+         <FileRef
+            location = "group:delete.svg">
+         </FileRef>
+         <FileRef
+            location = "group:phone.svg">
+         </FileRef>
+         <FileRef
+            location = "group:eye.svg">
+         </FileRef>
+         <FileRef
+            location = "group:door.svg">
+         </FileRef>
+         <FileRef
+            location = "group:fullscreen_start.svg">
+         </FileRef>
+         <FileRef
+            location = "group:pause.svg">
+         </FileRef>
+         <FileRef
+            location = "group:light.svg">
+         </FileRef>
+         <FileRef
+            location = "group:icon_device_internal_unit_circle.svg">
+         </FileRef>
+      </Group>
+   </Group>
+   <FileRef
+      location = "group:lindoor.zip">
+   </FileRef>
+   <FileRef
+      location = "group:method_types.xml">
+   </FileRef>
+   <FileRef
+      location = "group:texts.xml">
+   </FileRef>
+   <FileRef
+      location = "group:theme.xml">
+   </FileRef>
+   <FileRef
+      location = "group:zip.sh">
+   </FileRef>
+</Workspace>
