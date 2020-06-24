@@ -806,6 +806,10 @@
 		<entry name="default">GNU General Public License V3</entry>
 	</section>
 	
+	<section name="license_link">
+		<entry name="default">https://www.gnu.org/licenses/gpl-3.0.html</entry>
+	</section>
+	
 	<section name="copyright_text">
 		<entry name="default">© Belledonne Communications</entry>
 	</section>
