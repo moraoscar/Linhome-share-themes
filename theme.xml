@@ -417,7 +417,7 @@
 	<section name="textview-style.account_info">
 		<entry name="text-color">color_b</entry>
 		<entry name="font">Roboto-Bold</entry>
-		<entry name="size">12</entry>
+		<entry name="size">15</entry>
 		<entry name="align">center</entry>
 	</section>
 	
