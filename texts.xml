@@ -468,8 +468,8 @@
 	</section>
 	
 	<section name="no_account">
-		<entry name="default">No Account configured</entry>
-		<entry name="fr">Aucun compte configuré</entry>
+		<entry name="default">No Account configured.\nConfigure one via the account assistant</entry>
+		<entry name="fr">Aucun compte configuré.\nConfigurez-en un via l'assistant de compte</entry>
 	</section>
 	
 	
