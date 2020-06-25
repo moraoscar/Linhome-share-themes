@@ -467,7 +467,7 @@
 		<entry name="fr">Modifier le mot de passe</entry>
 	</section>
 	
-	<section name="no_account">
+	<section name="no_account_configured">
 		<entry name="default">No Account configured.\nConfigure one via the account assistant</entry>
 		<entry name="fr">Aucun compte configuré.\nConfigurez-en un via l'assistant de compte</entry>
 	</section>
@@ -477,13 +477,7 @@
 		<entry name="default">Account: {0} \n {1}</entry>
 		<entry name="fr">Compte: {0} \n {1}</entry>
 	</section>
-	
-	<section name="no_account_configured">
-		<entry name="default">No accounts configured</entry>
-		<entry name="fr">Aucun compte configuré</entry>
-	</section>
-	
-	
+		
 	
 	<section name="push_account_info">
 		<entry name="default">Push Account: {0} \n {1}</entry>
