@@ -400,8 +400,8 @@
 	</section>
 	
 	<section name="failed_creating_pushgateway">
-		<entry name="default">Push notifications could not be configured.</entry>
-		<entry name="fr">Les notification "push" n'ont pû être activées.</entry>
+		<entry name="default">Push notifications could not be configured. You will not receive calls when app is in background.</entry>
+		<entry name="fr">Les notification "push" n'ont pû être activées. Attention vous ne pourrez pas recevoir vos appels si l'application est en arrière plan</entry>
 	</section>
 	
 	
@@ -487,7 +487,7 @@
 	
 	<section name="push_account_info">
 		<entry name="default">Push Account: {0} \n {1}</entry>
-		<entry name="fr">Compte de notifications pushs: {0} \n {1}</entry>
+		<entry name="fr">Compte de notifications push: {0} \n {1}</entry>
 	</section>
 	
 	<section name="refresh_registers">
