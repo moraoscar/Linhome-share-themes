@@ -811,6 +811,13 @@
 	
 	<!-- dialogs & generic words -->
 	
+	
+	<section name="message">
+		<entry name="default">message</entry>
+		<entry name="fr">message</entry>
+	</section>
+	
+	
 	<section name="ok">
 		<entry name="default">Ok</entry>
 	</section>
