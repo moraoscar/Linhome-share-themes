@@ -569,7 +569,6 @@
 		<entry name="default">Delete log file</entry>
 		<entry name="fr">Supprimer le fichier de diagnostics</entry>
 	</section>
-
 	
 	<section name="log_clear_success">
 		<entry name="default">Log file deleted</entry>
@@ -581,6 +580,11 @@
 		<entry name="default">Send Log file</entry>
 		<entry name="fr">Envoyer le fichier de diagnostics</entry>
 	</section>
+	
+	<section name="unable_to_sendMail_from_this_device">
+		<entry name="default">Unable to send mail from this device</entry>
+		<entry name="fr">Impossible d'envoyer un mail depuis cet appareil</entry>
+	</section>	
 	
 	<section name="enable_ipv6">
 		<entry name="default">Enable IP V6</entry>
