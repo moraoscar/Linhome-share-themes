@@ -630,7 +630,7 @@
 	
 	<section name="devices_empty_list_title">
 		<entry name="default">Configure your IP video doorbells, security cameras and internal units, to see what is happening out there or call to your home.</entry>
-		<entry name="fr">Configurez vos sonnettes IP, vos caméras de sécurité ou vos écrans de contr^ôle internes pour voir en vidéo ce qui se passe devant ces appareils ou pour appeler votre maison.</entry>
+		<entry name="fr">Configurez vos sonnettes IP, vos caméras de sécurité ou vos écrans de contrôle internes pour voir en vidéo ce qui se passe devant ces appareils ou pour appeler votre maison.</entry>
 	</section>
 	
 	<section name="new_device">
