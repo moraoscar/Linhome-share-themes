@@ -733,7 +733,7 @@
 	</section>
 
 	<section name="action_unlock">
-		<entry name="default">Unlock<entry>
+		<entry name="default">Unlock</entry>
 		<entry name="fr">Dévérouiller</entry>
 	</section>
 	
