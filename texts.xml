@@ -1,4 +1,4 @@
-<config xmlns="http://www.linphone.org/xsds/lpconfig.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.linphone.org/xsds/lpconfig.xsd lpconfig.xsd">
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.linphone.org/xsds/lpconfig.xsd lpconfig.xsd">
 	
 	
 	<!--
@@ -733,7 +733,7 @@
 	</section>
 
 	<section name="action_unlock">
-		<entry name="default">Unlock/entry>
+		<entry name="default">Unlock<entry>
 		<entry name="fr">Dévérouiller</entry>
 	</section>
 	
