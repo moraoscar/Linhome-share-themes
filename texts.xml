@@ -20,7 +20,7 @@
 
 	<section name="splash_title">
 		<entry name="default">The customisable app for IP intercom systems</entry>
-		<entry name="fr">L'app customisable pour les systèmes intercom IP</entry>
+		<entry name="fr">L'app customisable pour les interphones IP</entry>
 	</section>
 
 	<section name="devices">
@@ -42,8 +42,8 @@
 	<!-- history -->
 
 	<section name="history_no_media_found">
-		<entry name="default">No media available</entry>
-		<entry name="fr">Aucun extrait disponible</entry>
+		<entry name="default">No audio or video recording</entry>
+		<entry name="fr">Aucun enregistrement audio ou vidéo disponible</entry>
 	</section>
 
 
@@ -104,8 +104,8 @@
 	</section>
 	
 	<section name="history_empty_list_title">
-		<entry name="default">No history events</entry>
-		<entry name="fr">Aucun évènements dans l'historique</entry>
+		<entry name="default">No history event</entry>
+		<entry name="fr">Aucun évènement dans l'historique</entry>
 	</section>
 	
 
@@ -139,7 +139,7 @@
 	
 	
 	<section name="disconnect_confirm_message">
-		<entry name="default">Would you like to disconnect your account ?</entry>
+		<entry name="default">Would you like to disconnect your account?</entry>
 		<entry name="fr">Voulez-vous déconnecter votre compte ?</entry>
 	</section>
 	
@@ -190,7 +190,8 @@
 
 
 	<section name="assistant_remote_prov_from_url_infobubble">
-		<entry name="default">Lorem ipsum dolor sit amet lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet lorem ipsum dolor sit amet.</entry>
+		<entry name="default">Automatically configure the app by downloading the configuration file that you have generated with your remote configuration server. The file must follow Lindoor's format. More info on https://www.wiki.linphone.org.</entry>
+		<entry name="fr">Configurez automatiquement l'application en téléchargeant le fichier de configuration que vous avez généré avec votre serveur de configuration. Ce fichier doit suivre le format du fichier de configuration de Lindoor. Plus d'infos sur https://wiki.linphone.org.</entry>
 	</section>
 
 	<section name="remote_configuration_success">
