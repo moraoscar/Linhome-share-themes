@@ -584,8 +584,8 @@
 	</section>
 	
 	<section name="unable_to_sendMail_from_this_device">
-		<entry name="default">It seems that the e-mail could not be sent from this device</entry>
-		<entry name="fr">Il semble impossible d'envoyer un e-mail depuis cet appareil</entry>
+		<entry name="default">It seems that the e-mail could not be sent from this device. Logs can be retrieved at the following URL: {0}</entry>
+		<entry name="fr">Il semble impossible d'envoyer un e-mail depuis cet appareil. Les logs se trouvent à l'adresse suivante: {0}</entry>
 	</section>	
 	
 	<section name="enable_ipv6">
