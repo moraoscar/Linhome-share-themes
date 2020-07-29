@@ -421,4 +421,11 @@
 		<entry name="align">center</entry>
 	</section>
 	
+	<section name="textview-style.notification_caller_name">
+		<entry name="text-color">color_b</entry>
+		<entry name="font">Roboto-Bold</entry>
+		<entry name="size">23</entry>
+		<entry name="align">center</entry>
+	</section>
+	
 </config>
