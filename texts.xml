@@ -234,6 +234,16 @@
 	</section>
 	
 	
+	<section name="assistant_using_will_disconnect_title">
+		<entry name="default">Existing account</entry>
+		<entry name="fr">Compte déjà existant</entry>
+	</section>
+	
+	<section name="assistant_using_will_disconnect_message">
+		<entry name="default">If you continue your current account will be disconnected. do you wish to do so ? </entry>
+		<entry name="fr">Si vous continuez votre compte sera déconnecté. Souhaitez vous continuer ?</entry>
+	</section>
+	
 	<section name="username">
 		<entry name="default">Username</entry>
 		<entry name="fr">Nom d'utilisateur</entry>
