@@ -118,7 +118,7 @@
 		<entry name="device_in_device_list_corner_radius">5</entry>
 		<entry name="call_in_history_list_corner_radius">5</entry>
 		<entry name="device_first_image_aspect_ratio">0.75</entry> <!-- 4:3 -->
-		<entry name="store_user_data_in_private_storage">0</entry>
+		<entry name="store_user_data_in_private_storage">1</entry>
 	</section>
 
 	<!-- TextView / UILabel styles textview-style.<key in app> values are optionnal hint-text-color also used for RadioButton in segmented-->
