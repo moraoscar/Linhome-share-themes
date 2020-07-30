@@ -486,8 +486,8 @@
 	
 	
 	<section name="account_info">
-		<entry name="default">Account: {0} \n {1}</entry>
-		<entry name="fr">Compte: {0} \n {1}</entry>
+		<entry name="default">Account: {0} \nSIP connection: {1}</entry>
+		<entry name="fr">Compte: {0} \nConnexion SIP: {1}</entry>
 	</section>
 		
 	
