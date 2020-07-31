@@ -961,8 +961,8 @@
 	<!-- notification -->
 	
 	<section name="notif_incoming_call_title">
-		<entry name="default">Incoming call</entry>
-		<entry name="fr">Appel entrant</entry>
+		<entry name="default">Incoming call (expand to view)</entry>
+		<entry name="fr">Appel entrant (étirer pour voir)</entry>
 	</section>
 	
 	<section name="notif_missed_call_title">
