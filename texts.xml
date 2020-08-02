@@ -189,7 +189,7 @@
 	</section>
 
 
-	<section name="assistant_remote_prov_from_url_infobubble">
+	<section name="assistant_remote_prov_infobubble">
 		<entry name="default">Automatically configure the app by downloading the configuration file that you have generated with your remote configuration server. The file must follow Lindoor's format. More info on https://www.wiki.linphone.org.</entry>
 		<entry name="fr">Configurez automatiquement l'application en téléchargeant le fichier de configuration que vous avez généré avec votre serveur de configuration. Ce fichier doit suivre le format du fichier de configuration de Lindoor. Plus d'infos sur https://wiki.linphone.org.</entry>
 	</section>
@@ -228,11 +228,6 @@
 		<entry name="fr">Scannez le QR code que vous avez généré.</entry>
 	</section>
 
-	<section name="assistant_remote_prov_from_qr_infobubble">
-		<entry name="default">Flash the QR code that you generated to download the app configuration from your remote configuration server.</entry>
-		<entry name="fr">Flashez le QR Code que vous avez généré pour télécharger la configuration de l'app depuis votre serveur de configuration distante.</entry>
-	</section>
-	
 	
 	<section name="assistant_using_will_disconnect_title">
 		<entry name="default">Existing account</entry>
