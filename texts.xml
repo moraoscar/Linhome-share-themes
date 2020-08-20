@@ -19,7 +19,7 @@
 	</section>
 
 	<section name="splash_title">
-		<entry name="default">The customisable app for IP intercom systems</entry>
+		<entry name="default">The white label app for IP intercom systems</entry>
 		<entry name="fr">L'app customisable pour les interphones IP</entry>
 	</section>
 
@@ -104,7 +104,7 @@
 	</section>
 	
 	<section name="history_empty_list_title">
-		<entry name="default">No history event</entry>
+		<entry name="default">No history event yet</entry>
 		<entry name="fr">Aucun évènement dans l'historique</entry>
 	</section>
 	
@@ -190,8 +190,8 @@
 
 
 	<section name="assistant_remote_prov_infobubble">
-		<entry name="default">Automatically configure the app by downloading the configuration file that you have generated with your remote configuration server. The file must follow Lindoor's format. More info on https://www.wiki.linphone.org.</entry>
-		<entry name="fr">Configurez automatiquement l'application en téléchargeant le fichier de configuration que vous avez généré avec votre serveur de configuration. Ce fichier doit suivre le format du fichier de configuration de Lindoor. Plus d'infos sur https://wiki.linphone.org.</entry>
+		<entry name="default">Automatically configure the app by downloading the configuration file that you have generated. The file must follow Lindoor's format. More info at https://www.wiki.linphone.org.</entry>
+		<entry name="fr">Configurez automatiquement l'application en téléchargeant le fichier de configuration que vous avez généré. Ce fichier doit suivre le format spécifique Lindoor. Plus d'infos sur https://wiki.linphone.org.</entry>
 	</section>
 	
 	
@@ -238,12 +238,12 @@
 	
 	<section name="assistant_using_will_disconnect_title">
 		<entry name="default">Existing account</entry>
-		<entry name="fr">Compte déjà existant</entry>
+		<entry name="fr">Ce compte existe déjà</entry>
 	</section>
 	
 	<section name="assistant_using_will_disconnect_message">
-		<entry name="default">If you continue your current account will be disconnected. do you wish to do so ? </entry>
-		<entry name="fr">Si vous continuez votre compte sera déconnecté. Souhaitez vous continuer ?</entry>
+		<entry name="default">If you continue, your current account will be disconnected. Do you want to continue? </entry>
+		<entry name="fr">Si vous continuez, votre compte sera déconnecté. Souhaitez-vous continuer ?</entry>
 	</section>
 	
 	<section name="username">
@@ -374,7 +374,7 @@
 	
 	<section name="account_creator_email_malformed">
 		<entry name="default">Invalid e-mail format</entry>
-		<entry name="fr">Format d'e-mail incorrect</entry>
+		<entry name="fr">Format d'e-mail invalide</entry>
 	</section>
 	
 	<section name="account_creator_email_invalid_characters">
@@ -384,12 +384,12 @@
 	
 	<section name="account_creator_domain_invalid">
 		<entry name="default">Invalid domain name</entry>
-		<entry name="fr">Nom de domain invalide</entry>
+		<entry name="fr">Nom de domaine invalide</entry>
 	</section>
 		
 	<section name="input_password_do_not_match">
 		<entry name="default">Passwords do not match</entry>
-		<entry name="fr">Les mots de passe de correspondent pas</entry>
+		<entry name="fr">Les mots de passe ne correspondent pas</entry>
 	</section>
 
 	<section name="lindoor_account_username_already_exists">
@@ -409,13 +409,13 @@
 	</section>
 		
 	<section name="sip_account_created">
-		<entry name="default">SIP account configured.</entry>
-		<entry name="fr">Compte SIP configuré.</entry>
+		<entry name="default">SIP account configured</entry>
+		<entry name="fr">Compte SIP configuré</entry>
 	</section>
 	
 	<section name="failed_creating_pushgateway">
 		<entry name="default">Push notifications could not be configured. For this reason, you will receive incoming calls only when the app is running in the foreground.</entry>
-		<entry name="fr">Les notification "push" n'ont pas pu être activées. Attention, vous ne pourrez recevoir les appels entrants que lorsque l'application est au premier plan.</entry>
+		<entry name="fr">Les notifications "push" n'ont pas pu être activées. Attention, vous ne pourrez recevoir les appels entrants que lorsque l'application est au premier plan.</entry>
 	</section>
 	
 	
@@ -449,12 +449,12 @@
 	
 	<section name="record_audio_permission_denied">
 		<entry name="default">Microphone access is required for outgoing calls.</entry>
-		<entry name="fr">Vous devez autoriser l'utilisation du microphone pour passer un appel</entry>
+		<entry name="fr">Vous devez autoriser l'utilisation du microphone pour passer un appel.</entry>
 	</section>
 	
 	<section name="record_audio_permission_denied_dont_ask_again">
-		<entry name="default">You need to allow audio recording permission for {appname} inside phone settings</entry>
-		<entry name="fr">Vous devez autorisez l'utilisation de du microphone à {appname} dans les réglages de votre appareil</entry>
+		<entry name="default">You need to give {appname} audio recording permission inside phone settings.</entry>
+		<entry name="fr">Vous devez autoriser {appname} à utiliser le microphone via les réglages de votre appareil.</entry>
 	</section>
 	
 	<section name="write_external_storage_permission_denied">
@@ -463,8 +463,8 @@
 	</section>
 	
 	<section name="write_external_storage_permission_denied_dont_ask_again">
-		<entry name="default">You need to allow external storage write access to store call recordingfor {appname} inside phone settings</entry>
-		<entry name="fr">Vous devez autorisez l'accès au stockage pour vos enregistrements à {appname} dans les réglages de votre appareil</entry>
+		<entry name="default">You need to allow {appname} to have external storage write access via the phone settings to store call recordings.</entry>
+		<entry name="fr">Vous devez autoriser {appname} à accéder à l'espace de stockage externe via les réglales de votre appareil. </entry>
 	</section>
 	
 	
@@ -482,8 +482,8 @@
 	</section>
 	
 	<section name="no_account_configured">
-		<entry name="default">No account configured.\nConfigure one via the account assistant</entry>
-		<entry name="fr">Aucun compte configuré.\nConfigurez-en un via l'assistant de compte</entry>
+		<entry name="default">No account configured.\nConfigure one via the account assistant.</entry>
+		<entry name="fr">Aucun compte configuré.\nConfigurez-en un via l'assistant de compte.</entry>
 	</section>
 	
 	
@@ -499,8 +499,8 @@
 	</section>
 	
 	<section name="refresh_registers">
-		<entry name="default">Refresh registration</entry>
-		<entry name="fr">Mettre à jour l'enregistrement</entry>
+		<entry name="default">Refresh connection</entry>
+		<entry name="fr">Mettre à jour la connection</entry>
 	</section>
 	
 	<section name="account_manage_on_freesip_title">
@@ -509,7 +509,7 @@
 	</section>
 	
 	<section name="account_manage_on_freesip_message">
-		<entry name="default">{appname} account can be managed via Lindoor's online SIP service. If you change your password or delete your account via the web platform, you will need to disconnect and reconnect your account inside the app to update your credentials.</entry>
+		<entry name="default">{appname} accounts can be managed via Lindoor's online SIP service. If you change your password or delete your account via the web platform, you will need to disconnect and reconnect your account inside the app to update your credentials.</entry>
 		<entry name="fr">La gestion du compte {appname} s'effectue via le service SIP en ligne de Lindoor. Si vous modifiez votre de passe ou supprimez votre compte depuis la plateforme web, vous devrez déconnecter puis reconnecter votre compte depuis l'app pour mettre à jour vos identifiants.</entry>
 	</section>
 	
@@ -547,17 +547,17 @@
 
 	<section name="audio_codecs">
 		<entry name="default">Audio codecs</entry>
-		<entry name="fr">Codecs Audio</entry>
+		<entry name="fr">Codecs audio</entry>
 	</section>
 
 	<section name="video_codecs">
 		<entry name="default">Video codecs</entry>
-		<entry name="fr">Codecs Vidéo</entry>
+		<entry name="fr">Codecs vidéo</entry>
 	</section>
 	
 	<section name="log_upload_failed">
-		<entry name="default">An error has occured, please try again later.</entry>
-		<entry name="fr">Une erreur est survenue, rééssayez plus tard.</entry>
+		<entry name="default">An error has occurred, please try again later.</entry>
+		<entry name="fr">Une erreur est survenue. Rééssayez plus tard.</entry>
 	</section>
 	
 	<section name="log_upload_success">
@@ -575,7 +575,7 @@
 	</section>
 	
 	<section name="enable_debuglogs">
-		<entry name="default">Enable Debug Log</entry>
+		<entry name="default">Enable debug log</entry>
 		<entry name="fr">Activer le fichier de déboggage</entry>
 	</section>
 	
@@ -585,8 +585,8 @@
 	</section>
 	
 	<section name="log_clear_success">
-		<entry name="default">Log file deleted</entry>
-		<entry name="fr">Fichier de déboggage supprimé</entry>
+		<entry name="default">Log file deleted.</entry>
+		<entry name="fr">Fichier de déboggage supprimé.</entry>
 	</section>
 	
 	
@@ -607,13 +607,13 @@
 
 	<section name="media_encryption">
 		<entry name="default">Media encryption</entry>
-		<entry name="fr">Chiffrement du média </entry>
+		<entry name="fr">Chiffrement du média</entry>
 	</section>
 	
 	
 	<section name="settings_device_show_latest_snapshot">
-		<entry name="default">Display most recent image captures in the devices list</entry>
-		<entry name="fr">Afficher la dernière capture d'image dans la liste des appareils</entry>
+		<entry name="default">Display the most recent image captures in the devices list.</entry>
+		<entry name="fr">Afficher les captures d'image les plus récentes dans la liste des appareils.</entry>
 	</section>
 	
 
@@ -641,7 +641,7 @@
 	
 	
 	<section name="devices_empty_list_title">
-		<entry name="default">Configure your IP video doorbells, security cameras and internal units, to see what is happening out there or call to your home.</entry>
+		<entry name="default">Configure your IP video doorbells, security cameras and internal units to see what is happening out there or make a call to your home.</entry>
 		<entry name="fr">Configurez vos sonnettes IP, vos caméras de sécurité ou vos écrans de contrôle internes pour voir en vidéo ce qui se passe devant ces appareils ou pour appeler votre maison.</entry>
 	</section>
 	
@@ -661,8 +661,8 @@
 	</section>
 
 	<section name="device_address_already_exists">
-		<entry name="default">There is already a device configured with this SIP address ({0})</entry>
-		<entry name="fr">Un appareil a déjà été configuré avec cette adresse SIP ({0})</entry>
+		<entry name="default">There is already a device configured with this SIP address ({0}).</entry>
+		<entry name="fr">Un appareil a déjà été configuré avec cette adresse SIP ({0}).</entry>
 	</section>
 
 
@@ -673,12 +673,12 @@
 		
 	<section name="device_type_select">
 		<entry name="default">Select the device type</entry>
-		<entry name="fr">Selectionner le type d'appareil</entry>
+		<entry name="fr">Sélectionner le type d'appareil</entry>
 	</section>
 	
 	<section name="device_type_select_prompt">
 		<entry name="default">Select the type</entry>
-		<entry name="fr">Selectionner le type</entry>
+		<entry name="fr">Sélectionner le type</entry>
 	</section>
 	
 	<section name="method_type_select">
@@ -694,7 +694,7 @@
 	
 	<section name="action_method_prompt">
 		<entry name="default">Select the method</entry>
-		<entry name="fr">Selectionner la méthode</entry>
+		<entry name="fr">Sélectionner la méthode</entry>
 	</section>
 	
 	
@@ -720,7 +720,7 @@
 	
 	<section name="action_prompt">
 		<entry name="default">Select an action</entry>
-		<entry name="fr">Selectionner une action</entry>
+		<entry name="fr">Sélectionner une action</entry>
 	</section>
 	
 	<section name="action_open_door">
@@ -740,7 +740,7 @@
 	</section>
 	
 	<section name="action_lightup">
-		<entry name="default">Sitwh on the light</entry>
+		<entry name="default">Switch on the light</entry>
 		<entry name="fr">Allumer la lumière</entry>
 	</section>
 
@@ -783,7 +783,7 @@
 	
 	<section name="device_action_select">
 		<entry name="default">Select an action</entry>
-		<entry name="fr">Selectionner une action</entry>
+		<entry name="fr">Sélectionner une action</entry>
 	</section>
 	
 	<section name="device_action_add">
@@ -882,7 +882,7 @@
 
 	<section name="select">
 		<entry name="default">Select</entry>
-		<entry name="fr">Selectionner</entry>
+		<entry name="fr">Sélectionner</entry>
 	</section>
 	
 	<section name="edit">
@@ -903,7 +903,7 @@
 	<!-- Call View -->
 	
 	<section name="incoming_someone_at_your_door">
-		<entry name="default">Someone is ringing at your door.</entry>
+		<entry name="default">Someone is ringing your doorbell.</entry>
 		<entry name="fr">Quelqu'un sonne à votre porte.</entry>
 	</section>
 
@@ -954,7 +954,7 @@
 	
 	<section name="unable_to_call_device">
 		<entry name="default">The device could not be reached. Check its configuration.</entry>
-		<entry name="fr">L'Appareil n'a pas pu être contacté. Vérifiez qu'il est bien configuré dans l'application.</entry>
+		<entry name="fr">L'Appareil n'a pas pu être contacté. Vérifiez qu'il soit bien configuré dans l'application.</entry>
 	</section>
 	
 
@@ -968,8 +968,8 @@
 	</section>
 	
 	<section name="notif_incoming_call_with_media_title">
-		<entry name="default">Incoming call (expand to view)</entry>
-		<entry name="fr">Appel entrant (étirer pour voir)</entry>
+		<entry name="default">Incoming call (expand the notification to view more)</entry>
+		<entry name="fr">Appel entrant (étirer la notification pour voir)</entry>
 	</section>
 	
 	<section name="notif_missed_call_title">
@@ -1025,28 +1025,28 @@
 	</section>
 
 	<section name="service_auto_start_description">
-		<entry name="default">{appname} has automatically started</entry>
-		<entry name="fr">{appname} a démarré automatiquement</entry>
+		<entry name="default">{appname} has automatically started.</entry>
+		<entry name="fr">{appname} a démarré automatiquement.</entry>
 	</section>
 
 	<section name="service_description">
-		<entry name="default">Push notifications are required to receive incoming calls while the app is closed or running in the backgroung.</entry>
+		<entry name="default">Push notifications are required to receive incoming calls while the app is closed or running in the background.</entry>
 		<entry name="fr">Les push notifications sont requises pour recevoir les appels entrants lorsque l'application est fermée ou en arrière-plan.</entry>
 	</section>
 
     <section name="lindoor_account_created">
-        <entry name="default">Your {appname} account {0} has been created. You will receive a validation e-mail shortly. Click on the link you received by e-mail to finalize the account creation</entry>
+        <entry name="default">Your {appname} account {0} has been created. You will receive a validation e-mail shortly. Click on the link you received by e-mail to finalize the creation of your account.</entry>
 		<entry name="fr">Votre compte {appname} {0} a été crée. Vous allez recevoir un e-mail de validation. Cliquez sur le lien reçu par e-mail pour finaliser la création du compte.</entry>
     </section>
 	
 	<section name="lindoor_account_creation_failed">
-		<entry name="default">An error has occured. Please try again later or contact Lindoor's support team. Error code: {0}</entry>
-		<entry name="fr">Une erreur est survenue. Réessayez ultérieurement ou contacter le service de support de Lindoor. Code d'erreur: {0}</entry>
+		<entry name="default">An error has occurred. Please try again later or contact Lindoor's support team. Error code: {0}</entry>
+		<entry name="fr">Une erreur est survenue. Réessayez ultérieurement ou contactez le service de support de Lindoor. Code d'erreur: {0}</entry>
 	</section>
 
 	<section name="lindoor_account_creation_request_failed">
 		<entry name="default">Request failed. Please try again later or contact Lindoor's support team.</entry>
-		<entry name="fr">Une erreur de requête est survenue. Rééssayez ultérieurement ou contacter le service de support de Lindoor.</entry>
+		<entry name="fr">Une erreur de requête est survenue. Rééssayez ultérieurement ou contactez le service de support de Lindoor.</entry>
 	</section>
 
 	
