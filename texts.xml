@@ -15,7 +15,7 @@
 	
 	
 	<section name="appname">
-		<entry name="default">Lindoor</entry>
+		<entry name="default">Linhome</entry>
 	</section>
 
 	<section name="splash_title">
@@ -190,8 +190,8 @@
 
 
 	<section name="assistant_remote_prov_infobubble">
-		<entry name="default">Automatically configure the app by downloading the configuration file that you have generated. The file must follow Lindoor's format. More info at https://www.wiki.linphone.org.</entry>
-		<entry name="fr">Configurez automatiquement l'application en téléchargeant le fichier de configuration que vous avez généré. Ce fichier doit suivre le format spécifique Lindoor. Plus d'infos sur https://wiki.linphone.org.</entry>
+		<entry name="default">Automatically configure the app by downloading the configuration file that you have generated. The file must follow Linhome's format. More info at https://www.wiki.linphone.org.</entry>
+		<entry name="fr">Configurez automatiquement l'application en téléchargeant le fichier de configuration que vous avez généré. Ce fichier doit suivre le format spécifique Linhome. Plus d'infos sur https://wiki.linphone.org.</entry>
 	</section>
 	
 	
@@ -509,8 +509,8 @@
 	</section>
 	
 	<section name="account_manage_on_freesip_message">
-		<entry name="default">{appname} accounts can be managed via Lindoor's online SIP service. If you change your password or delete your account via the web platform, you will need to disconnect and reconnect your account inside the app to update your credentials.</entry>
-		<entry name="fr">La gestion du compte {appname} s'effectue via le service SIP en ligne de Lindoor. Si vous modifiez votre de passe ou supprimez votre compte depuis la plateforme web, vous devrez déconnecter puis reconnecter votre compte depuis l'app pour mettre à jour vos identifiants.</entry>
+		<entry name="default">{appname} accounts can be managed via Linhome's online SIP service. If you change your password or delete your account via the web platform, you will need to disconnect and reconnect your account inside the app to update your credentials.</entry>
+		<entry name="fr">La gestion du compte {appname} s'effectue via le service SIP en ligne de Linhome. Si vous modifiez votre de passe ou supprimez votre compte depuis la plateforme web, vous devrez déconnecter puis reconnecter votre compte depuis l'app pour mettre à jour vos identifiants.</entry>
 	</section>
 	
 	
@@ -1040,13 +1040,13 @@
     </section>
 	
 	<section name="lindoor_account_creation_failed">
-		<entry name="default">An error has occurred. Please try again later or contact Lindoor's support team. Error code: {0}</entry>
-		<entry name="fr">Une erreur est survenue. Réessayez ultérieurement ou contactez le service de support de Lindoor. Code d'erreur: {0}</entry>
+		<entry name="default">An error has occurred. Please try again later or contact Linhome's support team. Error code: {0}</entry>
+		<entry name="fr">Une erreur est survenue. Réessayez ultérieurement ou contactez le service de support de Linhome. Code d'erreur: {0}</entry>
 	</section>
 
 	<section name="lindoor_account_creation_request_failed">
-		<entry name="default">Request failed. Please try again later or contact Lindoor's support team.</entry>
-		<entry name="fr">Une erreur de requête est survenue. Rééssayez ultérieurement ou contactez le service de support de Lindoor.</entry>
+		<entry name="default">Request failed. Please try again later or contact Linhome's support team.</entry>
+		<entry name="fr">Une erreur de requête est survenue. Rééssayez ultérieurement ou contactez le service de support de Linhome.</entry>
 	</section>
 
 	
