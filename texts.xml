@@ -158,12 +158,12 @@
 		<entry name="fr">Cet assistant vous permet de configurer votre compte.</entry>
 	</section>
 
-	<section name="assistant_create_lindoor_account">
+	<section name="assistant_create_linhome_account">
 		<entry name="default">Create a {appname} account</entry>
 		<entry name="fr">Créer un compte {appname}</entry>
 	</section>
 
-	<section name="assistant_use_lindoor_account">
+	<section name="assistant_use_linhome_account">
 		<entry name="default">Use a {appname} account</entry>
 		<entry name="fr">Utiliser un compte {appname}</entry>
 	</section>
@@ -392,18 +392,18 @@
 		<entry name="fr">Les mots de passe ne correspondent pas</entry>
 	</section>
 
-	<section name="lindoor_account_username_already_exists">
+	<section name="linhome_account_username_already_exists">
 		<entry name="default">This username is already in use</entry>
 		<entry name="fr">Ce nom d’utilisateur est déjà utilisé</entry>
 	</section>
 	
 	
-	<section name="lindoor_account_loggedin">
+	<section name="linhome_account_loggedin">
 		<entry name="default">{appname} account connected.</entry>
 		<entry name="fr">Compte {appname} connecté.</entry>
 	</section>
 	
-	<section name="lindoor_account_login_failed_unknown_user_or_wroong_password">
+	<section name="linhome_account_login_failed_unknown_user_or_wroong_password">
 		<entry name="default">Unknown username or incorrect password</entry>
 		<entry name="fr">Utilisateur inconnu ou mot de passe incorrect</entry>
 	</section>
@@ -567,11 +567,11 @@
 	
 	
 	<section name="support_email_android">
-		<entry name="default">lindoor-android@belledonne-communications.com</entry>
+		<entry name="default">linhome-android@belledonne-communications.com</entry>
 	</section>
 	
 	<section name="support_email_ios">
-		<entry name="default">lindoor-ios@belledonne-communications.com</entry>
+		<entry name="default">linhome-ios@belledonne-communications.com</entry>
 	</section>
 	
 	<section name="enable_debuglogs">
@@ -668,7 +668,7 @@
 
 	
 	<section name="device_address_hint">
-		<entry name="default">ex : sip:1234@sip.lindoor.org</entry>
+		<entry name="default">ex : sip:1234@sip.linhome.org</entry>
 	</section>
 		
 	<section name="device_type_select">
@@ -801,7 +801,7 @@
 	<!-- about -->
 
 	<section name="about_link">
-		<entry name="default">www.lindoor.org</entry>
+		<entry name="default">www.linhome.org</entry>
 	</section>
 
 	
@@ -1000,12 +1000,12 @@
 	
 	<!-- Android specific texts start-->
 
-    <section name="lindoor_service_id">
-        <entry name="default">lindoor_service_id</entry>
+    <section name="linhome_service_id">
+        <entry name="default">linhome_service_id</entry>
     </section>
 
     <section name="notification_channel_incoming_call_id">
-        <entry name="default">lindoor_notification_channel_incoming_call_id</entry>
+        <entry name="default">linhome_notification_channel_incoming_call_id</entry>
     </section>
 	
 
@@ -1034,17 +1034,17 @@
 		<entry name="fr">Les push notifications sont requises pour recevoir les appels entrants lorsque l'application est fermée ou en arrière-plan.</entry>
 	</section>
 
-    <section name="lindoor_account_created">
+    <section name="linhome_account_created">
         <entry name="default">Your {appname} account {0} has been created. You will receive a validation e-mail shortly. Click on the link you received by e-mail to finalize the creation of your account.</entry>
 		<entry name="fr">Votre compte {appname} {0} a été crée. Vous allez recevoir un e-mail de validation. Cliquez sur le lien reçu par e-mail pour finaliser la création du compte.</entry>
     </section>
 	
-	<section name="lindoor_account_creation_failed">
+	<section name="linhome_account_creation_failed">
 		<entry name="default">An error has occurred. Please try again later or contact Linhome's support team. Error code: {0}</entry>
 		<entry name="fr">Une erreur est survenue. Réessayez ultérieurement ou contactez le service de support de Linhome. Code d'erreur: {0}</entry>
 	</section>
 
-	<section name="lindoor_account_creation_request_failed">
+	<section name="linhome_account_creation_request_failed">
 		<entry name="default">Request failed. Please try again later or contact Linhome's support team.</entry>
 		<entry name="fr">Une erreur de requête est survenue. Rééssayez ultérieurement ou contactez le service de support de Linhome.</entry>
 	</section>
