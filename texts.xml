@@ -4,10 +4,11 @@
 	<!--
 	 
 	 <section name="text_key">
-	 	<entry name="default">Text displayed if no translation found</entry>
-	 	<entry name="fr">French translation  </entry>
-	 	<entry name="en">English translation  </entry>
-	 	<entry name="it">Italian translation  </entry>
+		<entry name="default">Text displayed if no translation found</entry>
+		<entry name="fr">French translation  </entry>
+		<entry name="en">English translation  </entry>
+		<entry name="it">Italian translation  </entry>
+		<entry name="pl">Polish translation  </entry>
 		.....
 	 </section>
 	 
@@ -19,23 +20,27 @@
 	</section>
 
 	<section name="splash_title">
-		<entry name="default">The white label app for IP intercom systems</entry>
+		<entry name="default">Aplikacja z białą etykietą dla systemów domofonowych IP</entry>
 		<entry name="fr">L'app customisable pour les interphones IP</entry>
+		<entry name="pl">Konfigurowalna aplikacja dla domofonów IP</entry>
 	</section>
 
 	<section name="devices">
 		<entry name="default">Devices</entry>
 		<entry name="fr">Appareils</entry>
+		<entry name="pl">Urządzenia</entry>
 	</section>
 
 	<section name="history">
 		<entry name="default">History</entry>
 		<entry name="fr">Historique</entry>
+		<entry name="pl">Historia</entry>
 	</section>
 
 	<section name="assistant">
 		<entry name="default">Assistant</entry>
 		<entry name="fr">Assistant</entry>
+		<entry name="pl">Asystent</entry>
 	</section>
 
 
@@ -44,68 +49,81 @@
 	<section name="history_no_media_found">
 		<entry name="default">No audio or video recording</entry>
 		<entry name="fr">Aucun enregistrement audio ou vidéo disponible</entry>
+		<entry name="pl">Brak nagrań audio lub wideo</entry>
 	</section>
 
 
 	<section name="history_unregistered_device">
 		<entry name="default">Unregistered device</entry>
 		<entry name="fr">Appareil non enregistré</entry>
+		<entry name="pl">Niezarejestrowano urządzenia</entry>
 	</section>
 
 	<section name="history_call_new">
 		<entry name="default">new</entry>
 		<entry name="fr">nouveau</entry>
+		<entry name="pl">nowy</entry>
 	</section>
 
 	<section name="history_list_call_date_type">
 		<entry name="default">{0} at {1}</entry>
 		<entry name="fr">{0} à {1}</entry>
+		<entry name="pl">{0} w {1}</entry>
 	</section>
 
 	<section name="history_list_call_type_missed">
 		<entry name="default">Missed</entry>
 		<entry name="fr">Manqué</entry>
+		<entry name="pl">Nieodebrane</entry>
 	</section>
 
 	<section name="history_list_call_type_declined">
 		<entry name="default">Declined</entry>
 		<entry name="fr">Décliné</entry>
+		<entry name="pl">Odrzucone</entry>
 	</section>
 
 
 	<section name="history_list_call_type_accepted">
 		<entry name="default">Accepted</entry>
 		<entry name="fr">Accepté</entry>
+		<entry name="pl">Zaakceptowane</entry>
 	</section>
 
 	<section name="history_list_call_type_called">
 		<entry name="default">Called</entry>
 		<entry name="fr">Appelé</entry>
+		<entry name="pl">Połączenia</entry>
 	</section>
 
 	<section name="history_list_call_type_aborted">
 		<entry name="default">Aborted</entry>
 		<entry name="fr">Annulé</entry>
+		<entry name="pl">Przerwano</entry>
 	</section>
 	
 	<section name="history_select_all">
 		<entry name="default">Select all</entry>
 		<entry name="fr">Tout sélectionner</entry>
+		<entry name="pl">Zaznacz wszystko</entry>
 	</section>
 
 	<section name="history_deselect_all">
 		<entry name="default">Deselect all</entry>
 		<entry name="fr">Tout désélectionner</entry>
+		<entry name="pl">Odznacz wszystko</entry>
 	</section>
 	
 	<section name="delete_history_confirm_message">
 		<entry name="default">Delete {0} event(s) ?</entry>
 		<entry name="fr">Supprimer {0} évènement(s) ?</entry>
+		<entry name="pl">Usunąć {0} zdarzeń ?</entry>
 	</section>
 	
 	<section name="history_empty_list_title">
 		<entry name="default">No history event yet</entry>
 		<entry name="fr">Aucun évènement dans l'historique</entry>
+		<entry name="pl">Nie ma jeszcze dostępnych zdarzeń</entry>
 	</section>
 	
 
@@ -115,32 +133,38 @@
 	<section name="menu_assistant">
 		<entry name="default">Account assistant</entry>
 		<entry name="fr">Assistant de compte</entry>
+		<entry name="pl">Asystent konta</entry>
 	</section>
 
 	<section name="menu_account">
 		<entry name="default">My account</entry>
 		<entry name="fr">Mon compte</entry>
+		<entry name="pl">Moje konto</entry>
 	</section>
 
 	<section name="menu_settings">
 		<entry name="default">Settings</entry>
 		<entry name="fr">Réglages</entry>
+		<entry name="pl">Ustawienia</entry>
 	</section>
 
 	<section name="menu_about">
 		<entry name="default">About</entry>
 		<entry name="fr">À propos</entry>
+		<entry name="pl">O nas</entry>
 	</section>
 
 	<section name="menu_disconnect">
 		<entry name="default">Disconnect account</entry>
 		<entry name="fr">Déconnexion du compte</entry>
+		<entry name="pl">Rozłącz konto</entry>
 	</section>
 	
 	
 	<section name="disconnect_confirm_message">
 		<entry name="default">Would you like to disconnect your account?</entry>
 		<entry name="fr">Voulez-vous déconnecter votre compte ?</entry>
+		<entry name="pl">Czy chcesz rozłączyć swoje konto?</entry>
 	</section>
 	
 
@@ -151,287 +175,341 @@
 	<section name="assistant_welcome_title">
 		<entry name="default">Welcome</entry>
 		<entry name="fr">Bienvenue</entry>
+		<entry name="pl">Witamy</entry>
 	</section>
 
 	<section name="assistant_welcome_subtitle">
 		<entry name="default">This assistant will help you configure your account.</entry>
 		<entry name="fr">Cet assistant vous permet de configurer votre compte.</entry>
+		<entry name="pl">Ten asystent pomoże Ci skonfigurować konto.</entry>
 	</section>
 
 	<section name="assistant_create_linhome_account">
 		<entry name="default">Create a {appname} account</entry>
 		<entry name="fr">Créer un compte {appname}</entry>
+		<entry name="pl">Utwórz konto {appname}</entry>
 	</section>
 
 	<section name="assistant_use_linhome_account">
 		<entry name="default">Use a {appname} account</entry>
 		<entry name="fr">Utiliser un compte {appname}</entry>
+		<entry name="pl">Użyj konta {appname}</entry>
 	</section>
 
 	<section name="assistant_use_sip_account">
 		<entry name="default">Use your SIP account</entry>
 		<entry name="fr">Utiliser votre compte SIP</entry>
+		<entry name="pl">Użyj własnego konta SIP</entry>
 	</section>
 
 	<section name="assistant_remote_prov">
 		<entry name="default">Remote configuration</entry>
 		<entry name="fr">Configuration distante</entry>
+		<entry name="pl">Zdalna konfiguracja</entry>
 	</section>
 
 	<section name="assistant_remote_url">
 		<entry name="default">From a URL</entry>
 		<entry name="fr">Depuis une URL</entry>
+		<entry name="pl">Z adresu URL</entry>
 	</section>
 	
 	<section name="assistant_remote_prov_from_url">
 		<entry name="default">Remote configuration from a URL</entry>
 		<entry name="fr">Configuration distante depuis une URL</entry>
+		<entry name="pl">Zdalna konfiguracja z adresu URL</entry>
 	</section>
 
 
 	<section name="assistant_remote_prov_infobubble">
 		<entry name="default">Automatically configure the app by downloading the configuration file that you have generated. The file must follow Linhome's format. More info at https://www.wiki.linphone.org.</entry>
 		<entry name="fr">Configurez automatiquement l'application en téléchargeant le fichier de configuration que vous avez généré. Ce fichier doit suivre le format spécifique Linhome. Plus d'infos sur https://wiki.linphone.org.</entry>
+		<entry name="pl">Automatycznie skonfiguruj aplikację, pobierając wygenerowany plik konfiguracyjny. Plik musi być zgodny z formatem Linhome. Więcej informacji na https://www.wiki.linphone.org.</entry>
 	</section>
 	
 	
 	<section name="assistant_remote_prov_from_qr_infobubble">
 		<entry name="default">Flash the QR code that you generated to download the app configuration from your remote configuration server.</entry>
 		<entry name="fr">Flashez le QR Code que vous avez généré pour télécharger la configuration de l'app depuis votre serveur de configuration distante.</entry>
+		<entry name="pl">Zapisz wygenerowany kod QR, aby pobrać konfigurację aplikacji ze zdalnego serwera.</entry>
 	</section>
 	
 
 	<section name="remote_configuration_success">
 		<entry name="default">Remote configuration successfully applied</entry>
 		<entry name="fr">La configuration a été effectuée avec succès</entry>
+		<entry name="pl">Konfiguracja zdalna została pomyślnie zastosowana</entry>
 	</section>
 	
 	<section name="remote_configuration_failed">
 		<entry name="default">Remote configuration failed</entry>
 		<entry name="fr">La configuration a échoué</entry>
+		<entry name="pl">Konfiguracja zdalna nie powiodła się</entry>
 	</section>
 	
 	<section name="remote_configuration_skipped">
 		<entry name="default">Remote configuration skipped</entry>
+		<entry name="pl">Pominięto konfigurację zdalną</entry>
 	</section>
 
 	<section name="url">
 		<entry name="default">URL</entry>
 		<entry name="fr">URL</entry>
+		<entry name="pl">URL</entry>
 	</section>
 	
 	<section name="assistant_remote_qr">
 		<entry name="default">From a QR code</entry>
 		<entry name="fr">Via un QR Code</entry>
+		<entry name="pl">Z kodu QR</entry>
 	</section>
 	
 	<section name="assistant_remote_from_qr">
 		<entry name="default">Remote configuration from a QR code</entry>
 		<entry name="fr">Configuration distante via un QR Code</entry>
+		<entry name="pl">Zdalna konfiguracja z kodu QR</entry>
 	</section>
 	
 	<section name="assistant_remote_from_qr_desc">
 		<entry name="default">Please scan the QR code that you generated.</entry>
 		<entry name="fr">Scannez le QR code que vous avez généré.</entry>
+		<entry name="pl">Zeskanuj wygenerowany kod QR.</entry>
 	</section>
 
 	
 	<section name="assistant_using_will_disconnect_title">
 		<entry name="default">Existing account</entry>
 		<entry name="fr">Ce compte existe déjà</entry>
+		<entry name="pl">Istniejące konto</entry>
 	</section>
 	
 	<section name="assistant_using_will_disconnect_message">
 		<entry name="default">If you continue, your current account will be disconnected. Do you want to continue? </entry>
 		<entry name="fr">Si vous continuez, votre compte sera déconnecté. Souhaitez-vous continuer ?</entry>
+		<entry name="pl">Jeśli będziesz kontynuować, Twoje obecne konto zostanie odłączone. Czy chcesz kontynuować?</entry>
 	</section>
 	
 	<section name="username">
 		<entry name="default">Username</entry>
 		<entry name="fr">Nom d'utilisateur</entry>
+		<entry name="pl">Nazwa użytkownika</entry>
 	</section>
 
 	<section name="email">
 		<entry name="default">E-mail</entry>
 		<entry name="fr">E-Mail</entry>
+		<entry name="pl">E-mail</entry>
 	</section>
 
 	<section name="password">
 		<entry name="default">Password</entry>
 		<entry name="fr">Mot de passe</entry>
+		<entry name="pl">Hasło</entry>
 	</section>
 
 	<section name="password_confirmation">
 		<entry name="default">Password confirmation</entry>
 		<entry name="fr">Confirmation du mot de passe</entry>
+		<entry name="pl">Potwierdź hasło</entry>
 	</section>
 
 	<section name="create_account">
 		<entry name="default">Create account</entry>
 		<entry name="fr">Créer le compte</entry>
+		<entry name="pl">Utwórz konto</entry>
 	</section>
 	
 	<section name="login">
 		<entry name="default">Login</entry>
 		<entry name="fr">Se connecter</entry>
+		<entry name="pl">Login</entry>
 	</section>
 
 	<section name="input_invalid_empty_field">
 		<entry name="default">Mandatory field</entry>
 		<entry name="fr">Ce champ est obligatoire</entry>
+		<entry name="pl">Pole obowiązkowe</entry>
 	</section>
 	
 	<section name="input_invalid_format_uri">
 		<entry name="default">Invalid URI format</entry>
 		<entry name="fr">Format d'url invalide</entry>
+		<entry name="pl">Nieprawidłowy format URI</entry>
 	</section>
 	
 	<section name="invalid_host_name">
 		<entry name="default">Invalid address format</entry>
 		<entry name="fr">Format d'adresse invalide</entry>
+		<entry name="pl">Nieprawidłowy format adresu</entry>
 	</section>
 	
 	
 	<section name="invalid_number">
 		<entry name="default">Invalid number format</entry>
 		<entry name="fr">Valeur incorrecte</entry>
+		<entry name="pl">Nieprawidłowy format numeru</entry>
 	</section>
 	
 	<section name="invalid_sip_uri">
 		<entry name="default">Invalid SIP Format (sip: or sips:...) </entry>
 		<entry name="fr">Format SIP invalide  (sip: ou sips:...)</entry>
+		<entry name="pl">Nieprawidłowy format SIP (sip: lub sips: ...)</entry>
 	</section>
 	
 	<section name="invalid_action_code">
 		<entry name="default">0-9 # *</entry>
 		<entry name="fr">0-9 # *</entry>
+		<entry name="pl">0-9 # *</entry>
 	</section>
 	
 	<section name="action_type_missing">
 		<entry name="default">Select an action</entry>
 		<entry name="fr">Selectionner une action</entry>
+		<entry name="pl">Wybierz akcję</entry>
 	</section>
 		
 	
 	<section name="proxy">
 		<entry name="default">proxy</entry>
 		<entry name="fr">proxy</entry>
+		<entry name="pl">proxy</entry>
 	</section>
 	
 	<section name="register_expiration">
 		<entry name="default">Registration expiration</entry>
 		<entry name="fr">Expiration de l'enregistrement</entry>
+		<entry name="pl">Wygaszenie rejestracji</entry>
 	</section>
 		
 	
 	<section name="account_creator_username_too_short">
 		<entry name="default">Username too short</entry>
 		<entry name="fr">Nom d'utilisateur trop court</entry>
+		<entry name="pl">Nazwa użytkownika jest zbyt krótka</entry>
 	</section>
 	
 	
 	<section name="account_creator_username_too_long">
 		<entry name="default">Username too long</entry>
 		<entry name="fr">Nom d'utilisateur trop long</entry>
+		<entry name="pl">Nazwa użytkownika jest za długa</entry>
 	</section>
 	
 	
 	<section name="account_creator_username_invalid_characters">
 		<entry name="default">Invalid characters</entry>
 		<entry name="fr">Caractètres invalides</entry>
+		<entry name="pl">Nieprawidłowe znaki</entry>
 	</section>
 	
 	
 	<section name="account_creator_username_invalid">
 		<entry name="default">Invalid username</entry>
 		<entry name="fr">Nom d'utilisateur invalide</entry>
+		<entry name="pl">Zła nazwa użytkownika</entry>
 	</section>
 	
 	
 	<section name="account_creator_password_too_short">
 		<entry name="default">Password too short</entry>
 		<entry name="fr">Mot de passe trop court</entry>
+		<entry name="pl">Hasło jest zbyt krótkie</entry>
 	</section>
 	
 	
 	<section name="account_creator_password_too_long">
 		<entry name="default">Password too long</entry>
 		<entry name="fr">Mot de passe trop long</entry>
+		<entry name="pl">Hasło jest zbyt długie</entry>
 	</section>
 	
 	
 	<section name="account_creator_password_invalid_characters">
 		<entry name="default">Invalid characters</entry>
 		<entry name="fr">Caractères invalides</entry>
+		<entry name="pl">Nieprawidłowe znaki</entry>
 	</section>
 	
 	
 	<section name="account_creator_password_missingchars">
 		<entry name="default">Missing characters</entry>
 		<entry name="fr">Caractères manquants</entry>
+		<entry name="pl">Brakujące znaki</entry>
 	</section>
 	
 	
 	<section name="account_creator_email_malformed">
 		<entry name="default">Invalid e-mail format</entry>
 		<entry name="fr">Format d'e-mail invalide</entry>
+		<entry name="pl">Niewłaściwy format e-mail</entry>
 	</section>
 	
 	<section name="account_creator_email_invalid_characters">
 		<entry name="default">Invalid characters</entry>
 		<entry name="fr">Caractères invalides</entry>
+		<entry name="pl">Nieprawidłowe znaki</entry>
 	</section>
 	
 	<section name="account_creator_domain_invalid">
 		<entry name="default">Invalid domain name</entry>
 		<entry name="fr">Nom de domaine invalide</entry>
+		<entry name="pl">Nieprawidłowa nazwa domeny</entry>
 	</section>
 		
 	<section name="input_password_do_not_match">
 		<entry name="default">Passwords do not match</entry>
 		<entry name="fr">Les mots de passe ne correspondent pas</entry>
+		<entry name="pl">Hasła nie pasują do siebie</entry>
 	</section>
 
 	<section name="linhome_account_username_already_exists">
 		<entry name="default">This username is already in use</entry>
 		<entry name="fr">Ce nom d’utilisateur est déjà utilisé</entry>
+		<entry name="pl">Nazwa użytkownika jest zajęta</entry>
 	</section>
 	
 	
 	<section name="linhome_account_loggedin">
 		<entry name="default">{appname} account connected.</entry>
 		<entry name="fr">Compte {appname} connecté.</entry>
+		<entry name="pl">Połączono konto {appname}</entry>
 	</section>
 	
 	<section name="linhome_account_login_failed_unknown_user_or_wroong_password">
 		<entry name="default">Unknown username or incorrect password</entry>
 		<entry name="fr">Utilisateur inconnu ou mot de passe incorrect</entry>
+		<entry name="pl">Nieznana nazwa użytkownika lub nieprawidłowe hasło</entry>
 	</section>
 		
 	<section name="sip_account_created">
 		<entry name="default">SIP account configured</entry>
 		<entry name="fr">Compte SIP configuré</entry>
+		<entry name="pl">Skonfigurowano konto SIP</entry>
 	</section>
 	
 	<section name="failed_creating_pushgateway">
 		<entry name="default">Push notifications could not be configured. For this reason, you will receive incoming calls only when the app is running in the foreground.</entry>
 		<entry name="fr">Les notifications "push" n'ont pas pu être activées. Attention, vous ne pourrez recevoir les appels entrants que lorsque l'application est au premier plan.</entry>
+		<entry name="pl">Nie można skonfigurować powiadomień push. Z tego powodu połączenia przychodzące będą odbierane tylko wtedy, gdy aplikacja jest uruchomiona na pierwszym planie.</entry>
 	</section>
 	
 	
 	<section name="more_settings">
 		<entry name="default">More settings</entry>
 		<entry name="fr">Plus d'options</entry>
+		<entry name="pl">Więcej ustawień</entry>
 	</section>
 	
 	<section name="domain">
 		<entry name="default">SIP Domain</entry>
 		<entry name="fr">Domaine SIP</entry>
+		<entry name="pl">Domena SIP</entry>
 	</section>
 	
 	<section name="transport">
 		<entry name="default">Transport</entry>
 		<entry name="fr">Transport</entry>
+		<entry name="pl">Transport</entry>
 	</section>
 	
 	
@@ -440,31 +518,37 @@
 	<section name="camera_permission_denied_dont_ask_again">
 		<entry name="default">Camera permission is required for {appname}.</entry>
 		<entry name="fr">Vous devez autoriser l'utilisation de l'appareil photo dans {appname}.</entry>
+		<entry name="pl">{Appname} wymaga pozwolenia na aparat.</entry>
 	</section>
 	
 	<section name="camera_permission_denied">
 		<entry name="default">Camera permission is required for QR code scanning.</entry>
 		<entry name="fr">Vous devez autoriser l'accès à l'appareil photo pour scanner un code QR.</entry>
+		<entry name="pl">Do skanowania kodu QR wymagane jest zezwolenie na aparat.</entry>
 	</section>
 	
 	<section name="record_audio_permission_denied">
 		<entry name="default">Microphone access is required for outgoing calls.</entry>
 		<entry name="fr">Vous devez autoriser l'utilisation du microphone pour passer un appel.</entry>
+		<entry name="pl">W przypadku połączeń wychodzących wymagany jest dostęp do mikrofonu.</entry>
 	</section>
 	
 	<section name="record_audio_permission_denied_dont_ask_again">
 		<entry name="default">You need to give {appname} audio recording permission inside phone settings.</entry>
 		<entry name="fr">Vous devez autoriser {appname} à utiliser le microphone via les réglages de votre appareil.</entry>
+		<entry name="pl">Musisz zezwolić aplikacji {appname} na nagrywanie dźwięku w ustawieniach telefonu.</entry>
 	</section>
 	
 	<section name="write_external_storage_permission_denied">
 		<entry name="default">Write access to external storage is required for call recordings.</entry>
 		<entry name="fr">Vous devez autoriser l'accès au répertoire de stockage pour les enregistrements audio.</entry>
+		<entry name="pl">Do nagrywania rozmów wymagany jest dostęp do pamięci zewnętrznej.</entry>
 	</section>
 	
 	<section name="write_external_storage_permission_denied_dont_ask_again">
 		<entry name="default">You need to allow {appname} to have external storage write access via the phone settings to store call recordings.</entry>
 		<entry name="fr">Vous devez autoriser {appname} à accéder à l'espace de stockage externe via les réglales de votre appareil. </entry>
+		<entry name="pl">W ustawieniach telefonu musisz zezwolić aplikacji {appname} na zapisywanie nagrań rozmów w pamięci zewnętrznej.</entry>
 	</section>
 	
 	
@@ -474,43 +558,51 @@
 	<section name="delete_account">
 		<entry name="default">Delete account</entry>
 		<entry name="fr">Supprimer le compte</entry>
+		<entry name="pl">Usuń konto</entry>
 	</section>
 	
 	<section name="change_password">
 		<entry name="default">Change password</entry>
 		<entry name="fr">Modifier le mot de passe</entry>
+		<entry name="pl">Zmień hasło</entry>
 	</section>
 	
 	<section name="no_account_configured">
 		<entry name="default">No account configured.\nConfigure one via the account assistant.</entry>
 		<entry name="fr">Aucun compte configuré.\nConfigurez-en un via l'assistant de compte.</entry>
+		<entry name="pl">Żadne konto nie zostało skonfigurowane.\nSkonfiguruj je za pomocą asystenta konta.</entry>
 	</section>
 	
 	
 	<section name="account_info">
 		<entry name="default">Account: {0} \nSIP connection: {1}</entry>
 		<entry name="fr">Compte: {0} \nConnexion SIP: {1}</entry>
+		<entry name="pl">Konto: {0} \nPołączenie SIP: {1}</entry>
 	</section>
 		
 	
 	<section name="push_account_info">
 		<entry name="default">Push Account: {0} \n {1}</entry>
 		<entry name="fr">Compte de notifications push: {0} \n {1}</entry>
+		<entry name="pl">Konto PUSH: {0} \n {1}</entry>
 	</section>
 	
 	<section name="refresh_registers">
 		<entry name="default">Refresh connection</entry>
 		<entry name="fr">Mettre à jour la connection</entry>
+		<entry name="pl">Odśwież połączenie</entry>
 	</section>
 	
 	<section name="account_manage_on_freesip_title">
 		<entry name="default">{appname} account management</entry>
 		<entry name="fr">Gestion du compte {appname} </entry>
+		<entry name="pl">Zarządzanie kontem {appname}</entry>
 	</section>
 	
 	<section name="account_manage_on_freesip_message">
 		<entry name="default">{appname} accounts can be managed via Linhome's online SIP service. If you change your password or delete your account via the web platform, you will need to disconnect and reconnect your account inside the app to update your credentials.</entry>
 		<entry name="fr">La gestion du compte {appname} s'effectue via le service SIP en ligne de Linhome. Si vous modifiez votre de passe ou supprimez votre compte depuis la plateforme web, vous devrez déconnecter puis reconnecter votre compte depuis l'app pour mettre à jour vos identifiants.</entry>
+		<entry name="pl">Kontami {appname} można zarządzać za pośrednictwem internetowej usługi SIP firmy Linhome. Jeśli zmienisz hasło lub usuniesz konto za pośrednictwem platformy internetowej, będziesz musiał rozłączyć i ponownie połączyć swoje konto w aplikacji, aby zaktualizować swoje poświadczenia.</entry>
 	</section>
 	
 	
@@ -520,26 +612,31 @@
 	<section name="registration_state_none">
 		<entry name="default">Not connected</entry>
 		<entry name="fr">Non connecté</entry>
+		<entry name="pl">Nie połączono</entry>
 	</section>
 	
 	<section name="registration_state_progress">
 		<entry name="default">Connection in progress</entry>
 		<entry name="fr">Connexion en cours</entry>
+		<entry name="pl">Trwa łączenie</entry>
 	</section>
 	
 	<section name="registration_state_ok">
 		<entry name="default">Connected</entry>
 		<entry name="fr">Connecté</entry>
+		<entry name="pl">Połączono</entry>
 	</section>
 	
 	<section name="registration_state_failed">
 		<entry name="default">Connection failed</entry>
 		<entry name="fr">Échec de la connexion</entry>
+		<entry name="pl">Połączenie nieudane</entry>
 	</section>
 	
 	<section name="registration_state_cleared">
 		<entry name="default">Unconnected</entry>
 		<entry name="fr">Déconnecté</entry>
+		<entry name="pl">Niepołączono</entry>
 	</section>
 	
 
@@ -548,21 +645,25 @@
 	<section name="audio_codecs">
 		<entry name="default">Audio codecs</entry>
 		<entry name="fr">Codecs audio</entry>
+		<entry name="pl">Kodeki audio</entry>
 	</section>
 
 	<section name="video_codecs">
 		<entry name="default">Video codecs</entry>
 		<entry name="fr">Codecs vidéo</entry>
+		<entry name="pl">Kodeki wideo</entry>
 	</section>
 	
 	<section name="log_upload_failed">
 		<entry name="default">An error has occurred, please try again later.</entry>
 		<entry name="fr">Une erreur est survenue. Rééssayez plus tard.</entry>
+		<entry name="pl">Wystąpił błąd, spróbuj ponownie później.</entry>
 	</section>
 	
 	<section name="log_upload_success">
 		<entry name="default">Log successfully uploaded. URL copied to clipboard</entry>
 		<entry name="fr">Le fichier de diagnostic a été téléchargé. L'URL a été copiée dans le presse-papier.</entry>
+		<entry name="pl">Dziennik został pomyślnie przesłany. URL skopiowany do schowka</entry>
 	</section>
 	
 	
@@ -577,43 +678,51 @@
 	<section name="enable_debuglogs">
 		<entry name="default">Enable debug log</entry>
 		<entry name="fr">Activer le fichier de déboggage</entry>
+		<entry name="pl">Włącz dziennik debugowania</entry>
 	</section>
 	
 	<section name="clear_logs">
 		<entry name="default">Delete log file</entry>
 		<entry name="fr">Supprimer le fichier de déboggage</entry>
+		<entry name="pl">Usuń plik dziennika</entry>
 	</section>
 	
 	<section name="log_clear_success">
 		<entry name="default">Log file deleted.</entry>
 		<entry name="fr">Fichier de déboggage supprimé.</entry>
+		<entry name="pl">Plik dziennika został usunięty.</entry>
 	</section>
 	
 	
 	<section name="send_logs">
 		<entry name="default">Send Log file</entry>
 		<entry name="fr">Envoyer le fichier de déboggage</entry>
+		<entry name="pl">Wyślij plik dziennika</entry>
 	</section>
 	
 	<section name="unable_to_sendMail_from_this_device">
 		<entry name="default">It seems that the e-mail could not be sent from this device. Logs can be retrieved at the following URL: {0}</entry>
 		<entry name="fr">Il semble impossible d'envoyer un e-mail depuis cet appareil. Les logs se trouvent à l'adresse suivante: {0}</entry>
-	</section>	
+		<entry name="pl">Plik dziennika usunięty. Wygląda na to, że nie można wysłać wiadomości e-mail z tego urządzenia. Dzienniki można pobrać pod następującym adresem URL: {0}</entry>
+	</section>
 	
 	<section name="enable_ipv6">
 		<entry name="default">Enable IPV6</entry>
 		<entry name="fr">Activer IPV6</entry>
+		<entry name="pl">Włącz IPV6</entry>
 	</section>
 
 	<section name="media_encryption">
 		<entry name="default">Media encryption</entry>
 		<entry name="fr">Chiffrement du média</entry>
+		<entry name="pl">Szyfrowanie multimediów</entry>
 	</section>
 	
 	
 	<section name="settings_device_show_latest_snapshot">
 		<entry name="default">Display the most recent image captures in the devices list.</entry>
 		<entry name="fr">Afficher les captures d'image les plus récentes dans la liste des appareils.</entry>
+		<entry name="pl">Wyświetla najnowsze przechwycone obrazy na liście urządzeń.</entry>
 	</section>
 	
 
@@ -627,42 +736,50 @@
 	<section name="device_info_actions_title">
 		<entry name="default">Action(s) configured</entry>
 		<entry name="fr">Action(s) configurée(s)</entry>
+		<entry name="pl">Skonfigurowane wyjścia przekaźnikowe</entry>
 	</section>
 
 	<section name="device_info_no_actions_title">
 		<entry name="default">No action configured</entry>
 		<entry name="fr">Aucune action configurée</entry>
+		<entry name="pl">Nie skonfigurowano wyjść przekaźnikowych</entry>
 	</section>
 	
 		<section name="delete_device_confirm_message">
 		<entry name="default">Delete device {0} ?</entry>
 		<entry name="fr">Supprimer l'appareil {0} ?</entry>
+		<entry name="pl">Usuń urządzenie {0}?</entry>
 	</section>
 	
 	
 	<section name="devices_empty_list_title">
 		<entry name="default">Configure your IP video doorbells, security cameras and internal units to see what is happening out there or make a call to your home.</entry>
 		<entry name="fr">Configurez vos sonnettes IP, vos caméras de sécurité ou vos écrans de contrôle internes pour voir en vidéo ce qui se passe devant ces appareils ou pour appeler votre maison.</entry>
+		<entry name="pl">Skonfiguruj swój wideo-domofon, kamerę, panel wewnętrzny itp..</entry>
 	</section>
 	
 	<section name="new_device">
 		<entry name="default">New device</entry>
 		<entry name="fr">Nouvel appareil</entry>
+		<entry name="pl">Nowe urządzenie</entry>
 	</section>
 	
 	<section name="device_name">
 		<entry name="default">Device name</entry>
 		<entry name="fr">Nom de l'appareil</entry>
+		<entry name="pl">Nazwa urządzenia</entry>
 	</section>
 	
 	<section name="device_address">
 		<entry name="default">SIP address</entry>
 		<entry name="fr">Adresse SIP</entry>
+		<entry name="pl">Adres SIP</entry>
 	</section>
 
 	<section name="device_address_already_exists">
 		<entry name="default">There is already a device configured with this SIP address ({0}).</entry>
 		<entry name="fr">Un appareil a déjà été configuré avec cette adresse SIP ({0}).</entry>
+		<entry name="pl">Istnieje już urządzenie skonfigurowane z tym adresem SIP ({0}).</entry>
 	</section>
 
 
@@ -674,27 +791,32 @@
 	<section name="device_type_select">
 		<entry name="default">Select the device type</entry>
 		<entry name="fr">Sélectionner le type d'appareil</entry>
+		<entry name="pl">Wybierz typ urządzenia</entry>
 	</section>
 	
 	<section name="device_type_select_prompt">
 		<entry name="default">Select the type</entry>
 		<entry name="fr">Sélectionner le type</entry>
+		<entry name="pl">Wybierz typ</entry>
 	</section>
 	
 	<section name="method_type_select">
 		<entry name="default">Configure action buttons (optional)</entry>
 		<entry name="fr">Configurer les boutons d'action (optionnel)</entry>
+		<entry name="pl">Skonfiguruj przyciski (opcjonalnie)</entry>
 	</section>
 	
 
 	<section name="action_method">
 		<entry name="default">Method</entry>
 		<entry name="fr">Méthode</entry>
+		<entry name="pl">Metoda</entry>
 	</section>
 	
 	<section name="action_method_prompt">
 		<entry name="default">Select the method</entry>
 		<entry name="fr">Sélectionner la méthode</entry>
+		<entry name="pl">Wybierz metodę</entry>
 	</section>
 	
 	
@@ -709,91 +831,101 @@
 	<section name="method_sip_message">
 		<entry name="default">SIP Message</entry>
 		<entry name="fr">Message SIP</entry>
+		<entry name="pl">Message SIP</entry>
 	</section>
 	
 	
 	<section name="action">
 		<entry name="default">action</entry>
 		<entry name="fr">action</entry>
+		<entry name="pl">przycisk</entry>
 	</section>
 	
 	
 	<section name="action_prompt">
 		<entry name="default">Select an action</entry>
 		<entry name="fr">Sélectionner une action</entry>
+		<entry name="pl">Wybierz ikonę</entry>
 	</section>
 	
 	<section name="action_open_door">
 		<entry name="default">Open the door</entry>
 		<entry name="fr">Ouvrir la porte</entry>
-	</section>
-	
-	
-	<section name="action_open_gate">
-		<entry name="default">Open the gate</entry>
-		<entry name="fr">Ouvrir le portail</entry>
+		<entry name="pl">Otwórz drzwi</entry>
 	</section>
 	
 	<section name="action_open_gate">
 		<entry name="default">Open the gate</entry>
 		<entry name="fr">Ouvrir le portail</entry>
+		<entry name="pl">Otwórz bramę</entry>
 	</section>
 	
 	<section name="action_lightup">
 		<entry name="default">Switch on the light</entry>
 		<entry name="fr">Allumer la lumière</entry>
+		<entry name="pl">Włącz światło</entry>
 	</section>
 
 	<section name="action_unlock">
 		<entry name="default">Unlock</entry>
 		<entry name="fr">Dévérouiller</entry>
+		<entry name="pl">Otwórz</entry>
 	</section>
 	
 	<section name="action_code">
 		<entry name="default">Code</entry>
 		<entry name="fr">Code</entry>
+		<entry name="pl">Kod</entry>
 	</section>
 	
 	
 	<section name="device_video_intercom">
 		<entry name="default">Video intercom</entry>
 		<entry name="fr">Interphone vidéo</entry>
+		<entry name="pl">Wideodomofon</entry>
 	</section>
 	
 	
 	<section name="device_audio_intercom">
 		<entry name="default">Audio intercom</entry>
 		<entry name="fr">Interphone audio</entry>
+		<entry name="pl">Domofon</entry>
 	</section>
 	
 	<section name="device_security_camera">
 		<entry name="default">SIP security camera</entry>
 		<entry name="fr">Caméra de sécurité SIP</entry>
+		<entry name="pl">Kamera SIP</entry>
 	</section>
 	
 	<section name="device_internal_unit">
 		<entry name="default">Internal unit</entry>
 		<entry name="fr">Unité interne</entry>
+		<entry name="pl">Panel wewnętrzny</entry>
 	</section>
 		
 	<section name="device_action">
 		<entry name="default">Action</entry>
 		<entry name="fr">Action</entry>
+		<entry name="pl">Przycisk</entry>
 	</section>
 	
 	<section name="device_action_select">
 		<entry name="default">Select an action</entry>
 		<entry name="fr">Sélectionner une action</entry>
+		<entry name="pl">Wybierz ikonę</entry>
 	</section>
 	
 	<section name="device_action_add">
 		<entry name="default">Add an action</entry>
 		<entry name="fr">Ajouter une action</entry>
+		<entry name="pl">Dodaj przycisk</entry>
 	</section>
 	
 	<section name="delete_device">
 		<entry name="default">Delete the device</entry>
 		<entry name="fr">Supprimer l'appareil</entry>
+		<entry name="pl">Usuń urządzenie</entry>
 	</section>
 	
 	
@@ -833,6 +965,7 @@
 	<section name="message">
 		<entry name="default">message</entry>
 		<entry name="fr">message</entry>
+		<entry name="pl">wiadomość</entry>
 	</section>
 	
 	
@@ -843,61 +976,73 @@
 	<section name="cancel">
 		<entry name="default">Cancel</entry>
 		<entry name="fr">Annuler</entry>
+		<entry name="pl">Anuluj</entry>
 	</section>
 		
 	<section name="confirm">
 		<entry name="default">Confirm</entry>
 		<entry name="fr">Confirmer</entry>
+		<entry name="pl">Potwierdź</entry>
 	</section>
 	
 	<section name="yes">
 		<entry name="default">Yes</entry>
 		<entry name="fr">Oui</entry>
+		<entry name="pl">Tak</entry>
 	</section>
 	
 	<section name="no">
 		<entry name="default">No</entry>
 		<entry name="fr">Non</entry>
+		<entry name="pl">Nie</entry>
 	</section>
 	
 	<section name="apply">
 		<entry name="default">Apply</entry>
 		<entry name="fr">Appliquer</entry>
+		<entry name="pl">Zastosuj</entry>
 	</section>
 
 	<section name="generic_dialog_error_title">
 		<entry name="default">Error</entry>
 		<entry name="fr">Erreur</entry>
+		<entry name="pl">Błąd</entry>
 	</section>
 
 	<section name="none">
 		<entry name="default">None</entry>
 		<entry name="fr">Aucun</entry>
+		<entry name="pl">Żaden</entry>
 	</section>
 	
 	<section name="save">
 		<entry name="default">Save</entry>
 		<entry name="fr">Enregistrer</entry>
+		<entry name="pl">Zapisz</entry>
 	</section>
 
 	<section name="select">
 		<entry name="default">Select</entry>
 		<entry name="fr">Sélectionner</entry>
+		<entry name="pl">Wybierz</entry>
 	</section>
 	
 	<section name="edit">
 		<entry name="default">Edit</entry>
 		<entry name="fr">Éditer</entry>
+		<entry name="pl">Edytuj</entry>
 	</section>
 
 	<section name="today">
 		<entry name="default">Today</entry>
 		<entry name="fr">Aujourd'hui</entry>
+		<entry name="pl">Dzisiaj</entry>
 	</section>
 
 	<section name="yesterday">
 		<entry name="default">Yesterday</entry>
 		<entry name="fr">Hier</entry>
+		<entry name="pl">Wczoraj</entry>
 	</section>
 	
 	<!-- Call View -->
@@ -905,48 +1050,57 @@
 	<section name="incoming_someone_at_your_door">
 		<entry name="default">Someone is ringing your doorbell.</entry>
 		<entry name="fr">Quelqu'un sonne à votre porte.</entry>
+		<entry name="pl">Ktoś dzwoni do drzwi</entry>
 	</section>
 
 	<section name="call_button_accept">
 		<entry name="default">Accept</entry>
 		<entry name="fr">Décrocher</entry>
+		<entry name="pl">Odbierz</entry>
 	</section>
 
 	<section name="call_button_decline">
 		<entry name="default">Decline</entry>
 		<entry name="fr">Raccrocher</entry>
+		<entry name="pl">Odrzuć</entry>
 	</section>
 	
 	<section name="call_button_cancel">
 		<entry name="default">Cancel</entry>
 		<entry name="fr">Annuler</entry>
+		<entry name="pl">Anuluj</entry>
 	</section>
 		
 	
 	<section name="call_button_hangup">
 		<entry name="default">Hang up</entry>
 		<entry name="fr">Raccrocher</entry>
+		<entry name="pl">Zakończ</entry>
 	</section>
 
 	<section name="call_button_mute">
 		<entry name="default">Mute</entry>
 		<entry name="fr">Désactiver</entry>
+		<entry name="pl">Wycisz</entry>
 	</section>
 	
 	<section name="call_button_unmute">
 		<entry name="default">Unmute</entry>
 		<entry name="fr">Activer</entry>
+		<entry name="pl">Wyłącz wyciszenie</entry>
 	</section>
 
 	
 	<section name="call_button_enable_speaker">
 		<entry name="default">Turn on</entry>
 		<entry name="fr">Activer</entry>
+		<entry name="pl">Włącz</entry>
 	</section>
 	
 	<section name="call_button_disable_speaker">
 		<entry name="default">Turn off</entry>
 		<entry name="fr">Désactiver</entry>
+		<entry name="pl">Wyłącz</entry>
 	</section>
 	
 	
@@ -955,6 +1109,7 @@
 	<section name="unable_to_call_device">
 		<entry name="default">The device could not be reached. Check its configuration.</entry>
 		<entry name="fr">L'Appareil n'a pas pu être contacté. Vérifiez qu'il soit bien configuré dans l'application.</entry>
+		<entry name="pl">Nie można połączyć się z urządzeniem. Sprawdź jego konfigurację.</entry>
 	</section>
 	
 
@@ -965,88 +1120,103 @@
 	<section name="notif_incoming_call_title">
 		<entry name="default">Incoming call</entry>
 		<entry name="fr">Appel entrant</entry>
+		<entry name="pl">Połączenie przychodzące</entry>
 	</section>
 	
 	<section name="notif_incoming_call_with_media_title">
 		<entry name="default">Incoming call (expand the notification to view more)</entry>
 		<entry name="fr">Appel entrant (étirer la notification pour voir)</entry>
+		<entry name="pl">Połączenie przychodzące (rozwiń powiadomienie, aby wyświetlić więcej)</entry>
 	</section>
 	
 	<section name="notif_missed_call_title">
 		<entry name="default">Missed call(s)</entry>
 		<entry name="fr">Appel(s) manqué(s)</entry>
+		<entry name="pl">Nieodebrane połączenie</entry>
 	</section>
 	
 	<section name="notif_missed_calls">
 		<entry name="default">{0} missed calls</entry>
 		<entry name="fr">{0} appels manqués</entry>
+		<entry name="pl">{0} nieodebranych połączeń</entry>
 	</section>
 	
 	<section name="notif_missed_call">
 		<entry name="default">missed call from {0}</entry>
 		<entry name="fr">appel manqué de {0}</entry>
+		<entry name="pl">nieodebrane połączenie od {0}</entry>
 	</section>
 	
 	<section name="notif_outgoing_call">
 		<entry name="default">Outgoing call</entry>
 		<entry name="fr">Appel sortant</entry>
+		<entry name="pl">Połączenie wychodzące</entry>
 	</section>
 	
 	<section name="notif_in_call">
 		<entry name="default">Call in progress</entry>
 		<entry name="fr">Appel en cours</entry>
+		<entry name="pl">Połączenie w toku</entry>
 	</section>
 	
 	
 	<!-- Android specific texts start-->
 
-    <section name="linhome_service_id">
-        <entry name="default">linhome_service_id</entry>
-    </section>
+	<section name="linhome_service_id">
+		<entry name="default">linhome_service_id</entry>
+	</section>
 
-    <section name="notification_channel_incoming_call_id">
-        <entry name="default">linhome_notification_channel_incoming_call_id</entry>
-    </section>
+	<section name="notification_channel_incoming_call_id">
+		<entry name="default">linhome_notification_channel_incoming_call_id</entry>
+	</section>
 	
 
 	<section name="notification_channel_service_name">
 		<entry name="default">{appname} service</entry>
 		<entry name="fr">Service {appname}</entry>
+		<entry name="pl">Usługa {appname}</entry>
 	</section>
 
 	<section name="notification_channel_incoming_call_name">
 		<entry name="default">{appname} Incoming call</entry>
 		<entry name="fr">{appname} Appel entrant</entry>
+		<entry name="pl">{appname} Połączenie przychodzące</entry>
 	</section>
 
 	<section name="service_name">
 		<entry name="default">{appname} Service</entry>
 		<entry name="fr">Service {appname}</entry>
+		<entry name="pl">Usługa {appname}</entry>
 	</section>
 
 	<section name="service_auto_start_description">
 		<entry name="default">{appname} has automatically started.</entry>
 		<entry name="fr">{appname} a démarré automatiquement.</entry>
+		<entry name="pl">Aplikacja {appname} została uruchomiona automatycznie.</entry>
 	</section>
 
 	<section name="service_description">
 		<entry name="default">Push notifications are required to receive incoming calls while the app is closed or running in the background.</entry>
 		<entry name="fr">Les push notifications sont requises pour recevoir les appels entrants lorsque l'application est fermée ou en arrière-plan.</entry>
+		<entry name="pl">Powiadomienia push są wymagane do odbierania połączeń przychodzących, gdy aplikacja jest zamknięta lub działa w tle.</entry>
 	</section>
 
-    <section name="linhome_account_created">
-        <entry name="default">Your {appname} account {0} has been created. You will receive a validation e-mail shortly. Click on the link you received by e-mail to finalize the creation of your account.</entry>
+	<section name="linhome_account_created">
+		<entry name="default">Your {appname} account {0} has been created. You will receive a validation e-mail shortly. Click on the link you received by e-mail to finalize the creation of your account.</entry>
 		<entry name="fr">Votre compte {appname} {0} a été crée. Vous allez recevoir un e-mail de validation. Cliquez sur le lien reçu par e-mail pour finaliser la création du compte.</entry>
-    </section>
+		<entry name="pl">Twoje konto {appname} {0} zostało utworzone. Wkrótce otrzymasz e-mail z potwierdzeniem. Kliknij link z otrzymanej wiadomości e-mail, aby sfinalizować tworzenie konta.</entry>
+	</section>
 	
 	<section name="linhome_account_creation_failed">
 		<entry name="default">An error has occurred. Please try again later or contact Linhome's support team. Error code: {0}</entry>
 		<entry name="fr">Une erreur est survenue. Réessayez ultérieurement ou contactez le service de support de Linhome. Code d'erreur: {0}</entry>
+		<entry name="pl">Wystąpił błąd. Spróbuj ponownie później lub skontaktuj się z zespołem pomocy Linhome. Kod błędu: {0}</entry>
 	</section>
 
 	<section name="linhome_account_creation_request_failed">
 		<entry name="default">Request failed. Please try again later or contact Linhome's support team.</entry>
 		<entry name="fr">Une erreur de requête est survenue. Rééssayez ultérieurement ou contactez le service de support de Linhome.</entry>
+		<entry name="pl">Żądanie nie powiodło się. Spróbuj ponownie później lub skontaktuj się z zespołem pomocy Linhome.</entry>
 	</section>
 
 	
