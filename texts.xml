@@ -706,6 +706,12 @@
 		<entry name="pl">Plik dziennika usunięty. Wygląda na to, że nie można wysłać wiadomości e-mail z tego urządzenia. Dzienniki można pobrać pod następującym adresem URL: {0}</entry>
 	</section>
 	
+	<section name="copy_url_to_clipboard">
+		<entry name="default">Copy URL</entry>
+		<entry name="fr">Copier l'URL</entry>
+		<entry name="pl">Skopiuj link</entry>
+	</section>
+	
 	<section name="enable_ipv6">
 		<entry name="default">Enable IPV6</entry>
 		<entry name="fr">Activer IPV6</entry>
