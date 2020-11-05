@@ -1113,13 +1113,10 @@
 	<!-- Error -->
 	
 	<section name="unable_to_call_device">
-		<entry name="default">The device could not be reached. Check its configuration.</entry>
-		<entry name="fr">L'Appareil n'a pas pu être contacté. Vérifiez qu'il soit bien configuré dans l'application.</entry>
+		<entry name="default">The device could not be reached. Check its configuration or your network connection</entry>
+		<entry name="fr">L'Appareil n'a pas pu être contacté. Vérifiez qu'il soit bien configuré dans l'application ou votre connexion.</entry>
 		<entry name="pl">Nie można połączyć się z urządzeniem. Sprawdź jego konfigurację.</entry>
 	</section>
-	
-
-
 	
 	<!-- notification -->
 	
