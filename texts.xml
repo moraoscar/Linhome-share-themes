@@ -1120,16 +1120,23 @@
 	
 	<!-- notification -->
 	
-	<section name="notif_incoming_call_title">
+	
+	<section name="notif_incoming_call">
 		<entry name="default">Incoming call</entry>
 		<entry name="fr">Appel entrant</entry>
 		<entry name="pl">Połączenie przychodzące</entry>
 	</section>
 	
-	<section name="notif_incoming_call_with_media_title">
-		<entry name="default">Incoming call (expand the notification to view more)</entry>
-		<entry name="fr">Appel entrant (étirer la notification pour voir)</entry>
-		<entry name="pl">Połączenie przychodzące (rozwiń powiadomienie, aby wyświetlić więcej)</entry>
+	<section name="notif_incoming_call_audio">
+		<entry name="default">Audio call</entry>
+		<entry name="fr">Appel audio</entry>
+		<entry name="pl">Połączenie audio</entry>
+	</section>
+	
+	<section name="notif_incoming_call_video">
+		<entry name="default">Video call</entry>
+		<entry name="fr">Appel vidéo</entry>
+		<entry name="pl">Połączenie wideo</entry>
 	</section>
 	
 	<section name="notif_missed_call_title">
