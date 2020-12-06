@@ -737,6 +737,11 @@
 	
 	<!-- Devices-->
 	
+	<section name="your_device">
+		<entry name="default">Your device</entry>
+		<entry name="fr">Votre appareil</entry>
+		<entry name="pl">Your device</entry>
+	</section>
 	
 	
 	<section name="device_info_actions_title">
