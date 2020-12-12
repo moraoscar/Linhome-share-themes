@@ -1211,8 +1211,8 @@
 	</section>
 
 	<section name="service_description">
-		<entry name="default">Push notifications are required to receive incoming calls while the app is closed or running in the background.</entry>
-		<entry name="fr">Les push notifications sont requises pour recevoir les appels entrants lorsque l'application est fermée ou en arrière-plan.</entry>
+		<entry name="default">Without push notifications you will not be able to receive calls while the app is closed or running in the background. However you can still use it to call your devices, or receive calls when your app is opened.</entry>
+		<entry name="fr">Sans notifications push vous ne pourrez pas recevoir d'appels lorsque l'application est fermée ou en arrière-plan. Vous pourrez cependant utiliser l'application pour appeler vos appareils ou recevoir des appels quand l'application est ouverte.</entry>
 		<entry name="pl">Powiadomienia push są wymagane do odbierania połączeń przychodzących, gdy aplikacja jest zamknięta lub działa w tle.</entry>
 	</section>
 
