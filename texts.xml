@@ -528,7 +528,7 @@
 	<section name="linhome_account_login_failed_unknown_user_or_wroong_password">
 		<entry name="default">Unknown username or incorrect password</entry>
 		<entry name="fr">Utilisateur inconnu ou mot de passe incorrect</entry>
-		<entry name="pl">Nieznana nazwa użytkownika lub nieprawidłowe hasło</
+		<entry name="pl">Nieznana nazwa użytkownika lub nieprawidłowe hasło</entry>
 		<entry name="de">Unbekannter Benutzername oder falsches Passwort</entry>
 	</section>
 		
