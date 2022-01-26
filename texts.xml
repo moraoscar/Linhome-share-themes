@@ -808,6 +808,11 @@
 	</section>
 		
 	<!-- Devices-->
+
+	<section name="vcard_sync_failed">
+                <entry name="default">Error fetching remotely configured devices. Check your internet connection and try again or alternatively Contact support if problem persists.</entry>
+                <entry name="fr">Une erreur est survenue lors de la récupération distante des appareils. Vérifier cotre connexion internet et essayez de nouveau ou si le problème persiste contacter le support.</entry>
+        </section>
 	
 	<section name="your_device">
 		<entry name="default">Your device</entry>
