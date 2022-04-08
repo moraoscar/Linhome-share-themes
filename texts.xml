@@ -1282,6 +1282,18 @@
 		<entry name="pl">nieodebrane połączenie od {0}</entry>
 		<entry name="de">Verpasster Anruf von {0}</entry>
 	</section>
+
+ 	<section name="notif_accepted_elsewhere_call_title">
+                <entry name="default">Call answered on another device.</entry>
+                <entry name="fr">Appel répondu sur un autre appareil.</entry>
+        </section>
+
+  	<section name="notif_declined_elsewhere_call_title">
+                <entry name="default">Call declined on another device.</entry>
+                <entry name="fr">Appel décliné sur un autre appareil.</entry>
+        </section>
+
+
 	
 	<section name="notif_outgoing_call">
 		<entry name="default">Outgoing call</entry>
