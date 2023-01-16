@@ -643,6 +643,19 @@
 		<entry name="default">You need to allow {appname} to detect GSM calls.</entry>
 		<entry name="fr">Vous devez autoriser {appname} à accéder à l'état du téléphone pour détecter les appels GSM.</entry>
 	</section>
+	
+	<section name="notifications_permission_denied">
+		<entry name="default">Notifications not allowed : you will not receive incoming call notifications</entry>
+		<entry name="fr">Notifications non autorisées : vous ne serez pas notifié des appels entrants</entry>
+	</section>
+	
+	<section name="notifications_permission_denied_dont_ask_again">
+		<entry name="default">You need to allow {appname} to receice notifications inside phone settings.</entry>
+		<entry name="fr">Vous devez autoriser {appname} à recevoir des notifications dans les paramètres de votre appareil.</entry>
+	</section>
+	
+	
+	
 		
 	<!-- Account -->
 	
