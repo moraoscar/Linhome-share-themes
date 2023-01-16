@@ -610,6 +610,16 @@
 		<entry name="pl">W ustawieniach telefonu musisz zezwolić aplikacji {appname} na zapisywanie nagrań rozmów w pamięci zewnętrznej.</entry>
 		<entry name="de">Sie müssen den Schreibzugriff auf externe Speicher für {appname} zulassen, um Anrufaufzeichnungen zu speichern.</entry>
 	</section>
+	
+	<section name="phone_state_permission_denied">
+		<entry name="default">Phone access is required to detect GSM calls.</entry>
+		<entry name="fr">L'accès à l'état du téléphone est nécessaire pour détecter les appels GSM.</entry>
+	</section>
+	
+	<section name="phone_state_permission_denied_dont_ask_again">
+		<entry name="default">You need to allow {appname} to detect GSM calls.</entry>
+		<entry name="fr">Vous devez autoriser {appname} à accéder à l'état du téléphone pour détecter les appels GSM.</entry>
+	</section>
 		
 	<!-- Account -->
 	
@@ -805,6 +815,11 @@
 		<entry name="fr">Afficher les captures d'image les plus récentes dans la liste des appareils.</entry>
 		<entry name="pl">Wyświetla najnowsze przechwycone obrazy na liście urządzeń.</entry>
 		<entry name="de">Zeige die neuesten Bildaufnahmen in der Geräteliste an.</entry>
+	</section>
+	
+	<section name="settings_background_mode">
+		<entry name="default">Background mode : shows a notification to keep the app alive.</entry>
+		<entry name="default">Mode arrière-plan : affiche une notification pour maintenir l'app active.</entry>
 	</section>
 		
 	<!-- Devices-->
@@ -1238,6 +1253,12 @@
 		<entry name="pl">Nie można połączyć się z urządzeniem. Sprawdź jego konfigurację.</entry>
 		<entry name="de">Das Gerät konnte nicht erreicht werden. Überprüfen Sie die Konfiguration oder Ihre Netzwerkverbindung.</entry>
 	</section>
+	
+	<section name="unable_to_accept_call_gsm_call_in_progress">
+		<entry name="default">Hung up GSM call before accepting {appname} call</entry>
+		<entry name="fr">Raccrocher l'appel GSM en cours avant d'accepter l'appel {appname}</entry>
+	</section>
+
 	
 	<!-- notification -->
 		
