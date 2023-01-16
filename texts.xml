@@ -540,10 +540,15 @@
 	</section>
 	
 	<section name="failed_creating_pushgateway">
-		<entry name="default">Push notifications could not be configured. For this reason, you will receive incoming calls only when the app is running in the foreground.</entry>
+		<entry name="default">Push notifications could not beconfirmTextKey"y" configured. For this reason, you will receive incoming calls only when the app is running in the foreground.</entry>
 		<entry name="fr">Les notifications "push" n'ont pas pu être activées. Attention, vous ne pourrez recevoir les appels entrants que lorsque l'application est au premier plan.</entry>
 		<entry name="pl">Nie można skonfigurować powiadomień push. Z tego powodu połączenia przychodzące będą odbierane tylko wtedy, gdy aplikacja jest uruchomiona na pierwszym planie.</entry>
 		<entry name="de">Push-Benachrichtigungen konnten nicht konfiguriert werden. Aus diesem Grund erhalten Sie eingehende Anrufe nur, wenn die App im Vordergrund ausgeführt wird.</entry>
+	</section>
+	
+	<section name="failed_sip_login_modify_parameters">
+		<entry name="default">SIP Registration failed. Do you want to modify parameters ?</entry>
+		<entry name="fr">Enregistrement SIP échoué, souhaitez-vous modifier les paramètres ?</entry>
 	</section>
 		
 	<section name="more_settings">
@@ -566,7 +571,25 @@
 		<entry name="pl">Transport</entry>
 		<entry name="de">Transport</entry>
 	</section>
+	
+	<section name="sip_user_hint">
+		<entry name="default">jon</entry>
+	</section>
+	
+	<section name="sip_domain_hint">
+		<entry name="default">sip.linhome.org</entry>
+	</section>
 		
+	<section name="sip_proxy_hint">
+			<entry name="default">sip:192.168.1.1:5061</entry>
+	</section>
+	
+	<section name="sip_proxy">
+			<entry name="default">PROXY URI (optional)</entry>
+			<entry name="fr">URI DU PROXY (optionnel)</entry>
+	</section>
+	
+	
 	<!-- permissions -->
 	
 	<section name="camera_permission_denied_dont_ask_again">
