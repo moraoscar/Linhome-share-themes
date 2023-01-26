@@ -1036,6 +1036,11 @@
 		<entry name="pl">Kod</entry>
 		<entry name="de">Schlüssel</entry>
 	</section>
+	
+	<section name="action_sent">
+		<entry name="default">Action "{0}" requested</entry>
+		<entry name="default">Action "{0}" demandée</entry>
+	</section>
 		
 	<section name="device_video_intercom">
 		<entry name="default">Video intercom</entry>
@@ -1291,8 +1296,8 @@
 	</section>
 	
 	<section name="unable_to_accept_call_gsm_call_in_progress">
-		<entry name="default">Hung up GSM call before accepting {appname} call</entry>
-		<entry name="fr">Raccrocher l'appel GSM en cours avant d'accepter l'appel {appname}</entry>
+		<entry name="default">Phone call must be terminated before accepting {appname} call</entry>
+		<entry name="fr">L'appel téléphonique doit être terminé avant d'accepter l'appel {appname}</entry>
 	</section>
 
 	
