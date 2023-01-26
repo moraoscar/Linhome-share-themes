@@ -1038,8 +1038,8 @@
 	</section>
 	
 	<section name="action_sent">
-		<entry name="default">Action "{0}" requested</entry>
-		<entry name="default">Action "{0}" demandée</entry>
+		<entry name="default">"{0}" sent</entry>
+		<entry name="fr">"{0}" envoyé</entry>
 	</section>
 		
 	<section name="device_video_intercom">
