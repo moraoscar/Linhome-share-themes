@@ -1123,7 +1123,17 @@
 	<section name="copyright_text">
 		<entry name="default">© Belledonne Communications</entry>
 	</section>
-	
+
+        <section name="privacy_policy_text">
+                <entry name="default">Privacy policy</entry> 
+                <entry name="fr">Politique de confidentialité</entry> 
+        </section>
+       <section name="privacy_policy_link">
+                <entry name="default">https://www.linphone.org/privacy-policy</entry>  
+        </section>
+
+
+
 	<!-- dialogs & generic words -->
 		
 	<section name="message">
