@@ -589,6 +589,15 @@
 			<entry name="fr">URI DU PROXY (optionnel)</entry>
 	</section>
 	
+	<section name="account_creator_token_requests_failed_too_many">
+		<entry name="default">Too many creation token requests. Try again later</entry>
+		<entry name="fr">Nombre de requêtes de "token" trop importantes. Réessayer plus tard.</entry>
+	</section>
+	
+	<section name="account_creator_token_requests_failed_generic">
+		<entry name="default">Failed getting a token. Try again later</entry>
+		<entry name="fr">Token de création non reçu. Réessayer plus tard.</entry>
+	</section>
 	
 	<!-- permissions -->
 	
