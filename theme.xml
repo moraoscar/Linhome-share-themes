@@ -1,6 +1,6 @@
 <config xmlns="http://www.linphone.org/xsds/lpconfig.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.linphone.org/xsds/lpconfig.xsd lpconfig.xsd">
 	<section name="colors">
-		<entry name="color_a">#ffff5e00</entry> <!-- zenitel = #ffffd400 -->
+		<entry name="color_a">#ffff5e00</entry>
 		<entry name="color_b">#444444</entry>
 		<entry name="color_c">#ffffff</entry>
 		<entry name="color_d">#f4f4f4</entry>
