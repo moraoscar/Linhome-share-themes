@@ -22,7 +22,13 @@
 		<entry name="color_s">#ffb863</entry>
 		<entry name="color_t">#ffc9a1</entry> <!-- border of new history items -->
 		<entry name="color_u">#d8d8d8</entry> <!-- background of image place holder in history list -->
-
+        <entry name="primary">#EC4286</entry>
+        <entry name="bg_cell">#f9f9f9</entry>
+        <entry name="bg_delete_btn">#FFDFE0</entry>
+        <entry name="text_delete_btn">#EC4245</entry>
+        <entry name="text_delete_btn">#EC4245</entry>
+        <entry name="bg">#010101</entry>
+        
 		
 		
 		<!-- Android specific -->
@@ -35,8 +41,8 @@
 	<!-- Gradient color gradient-color.<key in app> -->
 
 	<section name="gradient-color.dark_light_vertical_gradient"> <!--Used by launch screen -->
-		<entry name="from">color_a</entry>
-		<entry name="to">color_s</entry>
+		<entry name="from">bg</entry>
+		<entry name="to">bg</entry>
 		<entry name="orientation">top_bottom</entry> <!--Supported values are : top_bottom (default), bottom_top, right_left, left_right -->
 	</section>
 
@@ -58,10 +64,16 @@
 		<entry name="selected">color_h</entry>
 	</section>
 
+    <section name="selection-effect.white">
+        <entry name="default">color_c</entry>
+        <entry name="selected">color_c</entry>
+        <entry name="disabled">color_c</entry>
+    </section>
+    
 	<section name="selection-effect.primary_color">
-		<entry name="default">color_a</entry>
-		<entry name="selected">color_o</entry>
-		<entry name="disabled">color_a</entry>
+		<entry name="default">primary</entry>
+		<entry name="selected">primary</entry>
+		<entry name="disabled">primary</entry>
 	</section>
 
 	<section name="selection-effect.secondary_color">
@@ -87,6 +99,12 @@
 		<entry name="selected">color_a</entry>
 		<entry name="disabled">transparent</entry>
 	</section>
+    
+    <section name="selection-effect.delete_device">
+        <entry name="default">bg_delete_btn</entry>
+        <entry name="selected">bg_delete_btn</entry>
+        <entry name="disabled">bg_delete_btn</entry>
+    </section>
 
 	<!-- Info bubble -->
 
