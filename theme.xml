@@ -22,15 +22,15 @@
 		<entry name="color_s">#ffb863</entry>
 		<entry name="color_t">#ffc9a1</entry> <!-- border of new history items -->
 		<entry name="color_u">#d8d8d8</entry> <!-- background of image place holder in history list -->
-        <entry name="primary">#EC4286</entry>
-        <entry name="bg_cell">#f9f9f9</entry>
-        <entry name="bg_delete_btn">#FFDFE0</entry>
-        <entry name="text_delete_btn">#EC4245</entry>
-        <entry name="text_delete_btn">#EC4245</entry>
-        <entry name="bg">#010101</entry>
-        
-		
-		
+		<entry name="primary">#EC4286</entry>
+		<entry name="bg_cell">#f9f9f9</entry>
+		<entry name="bg_delete_btn">#FFDFE0</entry>
+		<entry name="text_delete_btn">#EC4245</entry>
+		<entry name="text_delete_btn">#EC4245</entry>
+		<entry name="bg">#010101</entry>
+		<entry name="color_secondary">#575757</entry>
+		<entry name="bg_secondary_btn">#FFDEEB</entry>
+
 		<!-- Android specific -->
 		<entry name="notification_led_color">#ffff5e00</entry>
 		<entry name="progress_bar">#ffb863</entry>
@@ -75,6 +75,18 @@
 		<entry name="selected">primary</entry>
 		<entry name="disabled">primary</entry>
 	</section>
+
+	<section name="selection-effect.bg_secondary_btn">
+		<entry name="default">bg_secondary_btn</entry>
+		<entry name="selected">bg_secondary_btn</entry>
+		<entry name="disabled">bg_secondary_btn</entry>
+	</section>
+
+    <section name="selection-effect.delete_action">
+        <entry name="default">text_delete_btn</entry>
+        <entry name="selected">text_delete_btn</entry>
+        <entry name="disabled">text_delete_btn</entry>
+    </section>
 
 	<section name="selection-effect.secondary_color">
 		<entry name="default">color_j</entry>

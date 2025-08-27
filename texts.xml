@@ -214,12 +214,12 @@
     </section>
         
     <section name="assistant_welcome_title">
-        <entry name="default">Welcome</entry>
-        <entry name="fr">Bienvenue</entry>
-        <entry name="es">Bienvenido</entry>
-        <entry name="pl">Witamy</entry>
-        <entry name="de">Willkommen</entry>
-        <entry name="bg">Добре дошли</entry>
+        <entry name="default">Account assistant</entry>
+        <entry name="fr">Assistant de compte</entry>
+        <entry name="es">Asistente de cuenta</entry>
+        <entry name="pl">Asystent konta</entry>
+        <entry name="de">Kontoassistent</entry>
+        <entry name="bg">Асистент за профил</entry>
     </section>
 
     <section name="assistant_welcome_subtitle">
@@ -1105,9 +1105,18 @@
     <section name="device_info_actions_title">
         <entry name="default">Action configured</entry>
         <entry name="fr">Action(s) configurée(s)</entry>
-        <entry name="es">Acciones configuradas</entry>
+        <entry name="es">Acciones configuradas</entry>
         <entry name="pl">Skonfigurowane wyjścia przekaźnikowe</entry>
         <entry name="de">Aktion(en) konfiguriert</entry>
+        <entry name="bg">Настроени действия</entry>
+    </section>
+
+    <section name="device_info_actions">
+        <entry name="default">Actions</entry>
+        <entry name="fr">Action(s)</entry>
+        <entry name="es">Acciones</entry>
+        <entry name="pl">Skonfigurowane wyjścia przekaźnikowe</entry>
+        <entry name="de">Aktion(en)</entry>
         <entry name="bg">Настроени действия</entry>
     </section>
 
@@ -1198,12 +1207,12 @@
     </section>
     
     <section name="method_type_select">
-        <entry name="default">Configure action buttons (optional)</entry>
-        <entry name="fr">Configurer les boutons d'action (optionnel)</entry>
-        <entry name="es">Configurar botones de acción (opcional)</entry>
-        <entry name="pl">Skonfiguruj przyciski (opcjonalnie)</entry>
-        <entry name="de">Konfiguriere die Aktionstasten (optional)</entry>
-        <entry name="bg">Настройте бутоните за действие (по избор)</entry>
+        <entry name="default">Configuration options (optional)</entry>
+        <entry name="fr">Options de configuration (optionnel)</entry>
+        <entry name="es">Opciones de configuración (opcional)</entry>
+        <entry name="pl">Opcje konfiguracji (opcjonalnie)</entry>
+        <entry name="de">Konfigurationsoptionen (optional)</entry>
+        <entry name="bg">Опции за конфигурация (по избор)</entry>
     </section>
 
     <section name="action_method">
