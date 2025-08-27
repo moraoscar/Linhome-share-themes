@@ -30,6 +30,7 @@
 		<entry name="bg">#010101</entry>
 		<entry name="color_secondary">#575757</entry>
 		<entry name="bg_secondary_btn">#FFDEEB</entry>
+		<entry name="color_view_title">#B2B2B2</entry>
 
 		<!-- Android specific -->
 		<entry name="notification_led_color">#ffff5e00</entry>
@@ -392,9 +393,9 @@
 	<!-- history -->
 	
 	<section name="textview-style.history_list_day_name">
-		<entry name="text-color">color_b</entry>
+		<entry name="text-color">color_view_title</entry>
 		<entry name="font">Roboto-Bold</entry>
-		<entry name="size">15</entry>
+		<entry name="size">14</entry>
 		<entry name="align">start</entry>
 	</section>
 
