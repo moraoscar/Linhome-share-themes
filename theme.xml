@@ -117,7 +117,7 @@
 	<section name="selection-effect.delete_device">
 			<entry name="default">bg_delete_btn</entry>
 			<entry name="selected">bg_delete_btn</entry>
-			<entry name="disabled">bg_cell</entry>
+			<entry name="disabled">bg_delete_btn</entry>
 	</section>
 
 	<section name="selection-effect.delete_device_disable">

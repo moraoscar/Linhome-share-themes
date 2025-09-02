@@ -126,7 +126,7 @@
     <section name="history_select_all">
         <entry name="default">Select all</entry>
         <entry name="fr">Tout sélectionner</entry>
-        <entry name="es">Seleccionar todo</entry>
+        <entry name="es">Seleccionar todos</entry>
         <entry name="pl">Zaznacz wszystko</entry>
         <entry name="de">Alle auswählen</entry>
         <entry name="bg">Избери всички</entry>
@@ -135,7 +135,7 @@
     <section name="history_deselect_all">
         <entry name="default">Deselect all</entry>
         <entry name="fr">Tout désélectionner</entry>
-        <entry name="es">Deseleccionar todo</entry>
+        <entry name="es">Deseleccionar todos</entry>
         <entry name="pl">Odznacz wszystko</entry>
         <entry name="de">Alle abwählen</entry>
         <entry name="bg">Изчисти всички</entry>
