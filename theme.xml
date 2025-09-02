@@ -31,6 +31,7 @@
 		<entry name="color_secondary">#575757</entry>
 		<entry name="bg_secondary_btn">#FFDEEB</entry>
 		<entry name="color_view_title">#B2B2B2</entry>
+		<entry name="color_text_label_input">#B1B1B1</entry>
 
 		<!-- Android specific -->
 		<entry name="notification_led_color">#ffff5e00</entry>
@@ -113,11 +114,17 @@
 		<entry name="disabled">transparent</entry>
 	</section>
     
-    <section name="selection-effect.delete_device">
-        <entry name="default">bg_delete_btn</entry>
-        <entry name="selected">bg_delete_btn</entry>
-        <entry name="disabled">bg_delete_btn</entry>
-    </section>
+	<section name="selection-effect.delete_device">
+			<entry name="default">bg_delete_btn</entry>
+			<entry name="selected">bg_delete_btn</entry>
+			<entry name="disabled">bg_cell</entry>
+	</section>
+
+	<section name="selection-effect.delete_device_disable">
+			<entry name="default">bg_cell</entry>
+			<entry name="selected">bg_cell</entry>
+			<entry name="disabled">bg_cell</entry>
+	</section>
 
 	<!-- Info bubble -->
 

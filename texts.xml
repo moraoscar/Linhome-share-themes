@@ -149,6 +149,24 @@
         <entry name="de">Lösche {0} Einträge ?</entry>
         <entry name="bg">Изтрий {0} събития ?</entry>
     </section>
+
+    <section name="delete_history">
+        <entry name="default">Delete</entry>
+        <entry name="fr">Supprimer</entry>
+        <entry name="es">Eliminar</entry>
+        <entry name="pl">Usunąć</entry>
+        <entry name="de">Lösche</entry>
+        <entry name="bg">Изтрий</entry>
+    </section>
+
+    <section name="delete_history_event">
+        <entry name="default">event(s)</entry>
+        <entry name="fr">évènement(s)</entry>
+        <entry name="es">evento(s)</entry>
+        <entry name="pl">zdarzeń</entry>
+        <entry name="de">Einträge</entry>
+        <entry name="bg">събития</entry>
+    </section>
     
     <section name="history_empty_list_title">
         <entry name="default">No history event yet</entry>
