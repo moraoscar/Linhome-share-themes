@@ -204,6 +204,33 @@
         <entry name="bg">Настройки</entry>
     </section>
 
+    <section name="menu_support">
+        <entry name="default">Technical support</entry>
+        <entry name="fr">Support technique</entry>
+        <entry name="es">Soporte técnico</entry>
+        <entry name="pl">Wsparcie techniczne</entry>
+        <entry name="de">Technischer Support</entry>
+        <entry name="bg">Техническа поддръжка</entry>
+    </section>
+
+    <section name="menu_support_module">
+        <entry name="default">Technical Support</entry>
+        <entry name="fr">Support Technique</entry>
+        <entry name="es">Soporte Técnico</entry>
+        <entry name="pl">Wsparcie Techniczne</entry>
+        <entry name="de">Technischer Support</entry>
+        <entry name="bg">Техническа Поддръжка</entry>
+    </section>
+
+    <section name="support_information">
+        <entry name="default">We have a team of specialists to help you resolve any questions or issues.</entry>
+        <entry name="fr">Nous avons une équipe de spécialistes pour vous aider à résoudre vos questions ou problèmes.</entry>
+        <entry name="es">Tenemos un equipo de especialistas para ayudarte a solucionar cualquier consulta o incidencial.</entry>
+        <entry name="pl">Mamy zespół specjalistów, którzy pomogą Ci rozwiązać wszelkie pytania lub problemy.</entry>
+        <entry name="de">Wir haben ein Team von Spezialisten, die Ihnen bei Fragen oder Problemen helfen.</entry>
+        <entry name="bg">Имаме екип от специалисти, които да ви помогнат да разрешите всякакви въпроси или проблеми.</entry>
+    </section>
+
     <section name="menu_about">
         <entry name="default">About</entry>
         <entry name="fr">À propos</entry>
@@ -1412,8 +1439,26 @@
         <entry name="bg">Изтрийте устройството</entry>
     </section>
         
+    <section name="about_version_app">
+        <entry name="default">Version</entry>
+        <entry name="fr">Version</entry>
+        <entry name="es">Versión</entry>
+        <entry name="pl">Wersja</entry>
+        <entry name="de">Version</entry>
+        <entry name="bg">Версия</entry>
+    </section>
+
+    <section name="about_information_app">
+        <entry name="default">NÜO WyM is the application that allows you to make and receive calls from your video intercoms</entry>
+        <entry name="fr">NÜO WyM est l'application qui vous permet de passer et de recevoir des appels de vos visiophones</entry>
+        <entry name="es">NÜO WyM es la aplicación que te permite hacer y recibir llamadas de tus videointercomunicadores</entry>
+        <entry name="pl">NÜO WyM to aplikacja, która pozwala na wykonywanie i odbieranie połączeń z wideodomofonów</entry>
+        <entry name="de">NÜO WyM ist die Anwendung, mit der Sie Anrufe von Ihren Video-Gegensprechanlagen tätigen und empfangen können</entry>
+        <entry name="bg">NÜO WyM е приложението, което ви позволява да осъществявате и получавате повиквания от вашите видеодомофони</entry>
+    </section>
+
     <section name="about_link">
-        <entry name="default">www.linhome.org</entry>
+        <entry name="default">www.nuoplanet.com</entry>
     </section>
     
     <section name="app_version">
