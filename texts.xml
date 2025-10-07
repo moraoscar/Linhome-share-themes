@@ -178,12 +178,12 @@
     </section>
     
     <section name="menu_assistant">
-        <entry name="default">Account assistant</entry>
-        <entry name="fr">Assistant de compte</entry>
-        <entry name="es">Asistente de cuenta</entry>
-        <entry name="pl">Asystent konta</entry>
-        <entry name="de">Kontoassistent</entry>
-        <entry name="bg">Асистент за профил</entry>
+        <entry name="default">Configuration</entry>
+        <entry name="fr">Configuration</entry>
+        <entry name="es">Configuración</entry>
+        <entry name="pl">Konfiguracja</entry>
+        <entry name="de">Konfiguration</entry>
+        <entry name="bg">Конфигурация</entry>
     </section>
 
     <section name="menu_account">
@@ -232,21 +232,21 @@
     </section>
 
     <section name="menu_about">
-        <entry name="default">About</entry>
-        <entry name="fr">À propos</entry>
-        <entry name="es">Acerca de</entry>
-        <entry name="pl">O nas</entry>
-        <entry name="de">Über</entry>
-        <entry name="bg">Относно</entry>
+        <entry name="default">About NÜO</entry>
+        <entry name="fr">À propos de NÜO</entry>
+        <entry name="es">Acerca de NÜO</entry>
+        <entry name="pl">O NÜO</entry>
+        <entry name="de">Über NÜO</entry>
+        <entry name="bg">За NÜO</entry>
     </section>
 
     <section name="menu_disconnect">
-        <entry name="default">Disconnect account</entry>
-        <entry name="fr">Déconnexion du compte</entry>
-        <entry name="es">Desconectar cuenta</entry>
-        <entry name="pl">Rozłącz konto</entry>
-        <entry name="de">Konto trennen</entry>
-        <entry name="bg">Излизане от профила</entry>
+        <entry name="default">Disconnect</entry>
+        <entry name="fr">Déconnecter</entry>
+        <entry name="es">Desconectar</entry>
+        <entry name="pl">Rozłącz</entry>
+        <entry name="de">Trennen</entry>
+        <entry name="bg">Прекъсни</entry>
     </section>
         
     <section name="disconnect_confirm_message">
@@ -396,21 +396,21 @@
     </section>
     
     <section name="assistant_remote_from_qr">
-        <entry name="default">Remote configuration from a QR code</entry>
-        <entry name="fr">Configuration distante via un QR Code</entry>
-        <entry name="es">Configuración remota desde un código QR</entry>
-        <entry name="pl">Zdalna konfiguracja z kodu QR</entry>
-        <entry name="de">Fern-Konfiguration von einem QR Code</entry>
-        <entry name="bg">Отдалечена настройка от QR код</entry>
+        <entry name="default">Configuration</entry>
+        <entry name="fr">Configuration</entry>
+        <entry name="es">Configuración</entry>
+        <entry name="pl">Konfiguracja</entry>
+        <entry name="de">Konfiguration</entry>
+        <entry name="bg">Конфигурация</entry>
     </section>
     
     <section name="assistant_remote_from_qr_desc">
-        <entry name="default">Please scan the QR code that you generated.</entry>
-        <entry name="fr">Scannez le QR code que vous avez généré.</entry>
-        <entry name="es">Por favor, escanea el código QR que generaste.</entry>
-        <entry name="pl">Zeskanuj wygenerowany kod QR.</entry>
-        <entry name="de">Bitte scannen Sie den QR Code ein, den Sie generiert haben.</entry>
-        <entry name="bg">Моля, сканирайте генерирания QR код.</entry>
+        <entry name="default">Configure your account by scanning the QR code you'll find in the NÜO system to link it.</entry>
+        <entry name="fr">Configurez votre compte en scannant le code QR que vous trouverez dans le système NÜO pour vous connecter.</entry>
+        <entry name="es">Configura tu cuenta escaneando el QR que encontrarás en el sistema NÜO para vincucularte. </entry>
+        <entry name="pl">Skonfiguruj swoje konto, skanując kod QR, który znajdziesz w systemie NÜO, aby się połączyć.</entry>
+        <entry name="de">Konfigurieren Sie Ihr Konto, indem Sie den QR-Code scannen, den Sie im NÜO-System finden, um sich zu verknüpfen.</entry>
+        <entry name="bg">Конфигурирайте акаунта си, като сканирате QR кода, който ще намерите в системата NÜO, за да се свържете.</entry>
     </section>
 
     
