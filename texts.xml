@@ -1432,7 +1432,7 @@
     
     <section name="delete_device">
         <entry name="default">Delete the device</entry>
-        <entry name="es">Eliminar</entry>
+        <entry name="es">Eliminar</entry>
         <entry name="fr">Supprimer l'appareil</entry>
         <entry name="pl">Usuń urządzenie</entry>
         <entry name="de">Lösche das Gerät</entry>
