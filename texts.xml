@@ -195,6 +195,15 @@
         <entry name="bg">Мой профил</entry>
     </section>
 
+    <section name="my_account_subtitle">
+        <entry name="default">These are your account details</entry>
+        <entry name="fr">Ce sont vos coordonnées</entry>
+        <entry name="es">Estos son los datos de tu cuenta</entry>
+        <entry name="pl">To są szczegóły twojego konta</entry>
+        <entry name="de">Das sind Ihre Kontodaten</entry>
+        <entry name="bg">Това са данните за вашия профил</entry>
+    </section>
+
     <section name="menu_settings">
         <entry name="default">Settings</entry>
         <entry name="fr">Réglages</entry>
