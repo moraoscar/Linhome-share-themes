@@ -165,7 +165,7 @@
 	<!-- TextView / UILabel styles textview-style.<key in app> values are optionnal hint-text-color also used for RadioButton in segmented-->
 
 	<section name="textview-style.splash_title">
-		<entry name="text-color">color_c</entry>
+		<entry name="text-color">color_secondary</entry>
 		<entry name="font">Roboto-Regular</entry> <!-- Font name must match name in ZIP or in Asset of the app. Asset is looked up first then zip -->
 		<entry name="size">15</entry>
 		<entry name="align">center</entry> <!--  supported values are : start (default), center, end. -->
@@ -225,7 +225,7 @@
 	</section>
 	
 	<section name="textview-style.round_rect_button">
-		<entry name="text-color">color_c</entry>
+		<entry name="text-color">color_a</entry>
 		<entry name="font">Roboto-Bold</entry>
 		<entry name="size">15</entry>
 		<entry name="align">center</entry>
@@ -488,6 +488,20 @@
 		<entry name="font">Roboto-Bold</entry>
 		<entry name="size">23</entry>
 		<entry name="align">center</entry>
+	</section>
+
+	<section name="textview-style.label_info">
+		<entry name="text-color">color_text_label_input</entry>
+		<entry name="font">Roboto-Bold</entry>
+		<entry name="size">13</entry>
+		<entry name="align">start</entry>
+	</section>
+
+	<section name="textview-style.label_value_info">
+		<entry name="text-color">color_secondary</entry>
+		<entry name="font">Roboto-Regular</entry>
+		<entry name="size">13</entry>
+		<entry name="align">start</entry>
 	</section>
 	
 </config>
