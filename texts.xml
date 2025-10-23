@@ -1908,5 +1908,23 @@
         <entry name="de">Menü</entry>
         <entry name="bg">Меню</entry>
     </section>
+
+    <section name="welcome">
+        <entry name="default">Welcome</entry>
+        <entry name="fr">Bienvenue</entry>
+        <entry name="es">Bienvenido</entry>
+        <entry name="pl">Witamy</entry>
+        <entry name="de">Willkommen</entry>
+        <entry name="bg">Добре дошли</entry>
+    </section>
+
+    <section name="welcome_subtitle">
+        <entry name="default">Check your devices and history</entry>
+        <entry name="fr">Vérifiez vos appareils et votre historique</entry>
+        <entry name="es">Verifica tus dispositivos e historial</entry>
+        <entry name="pl">Sprawdź swoje urządzenia i historię</entry>
+        <entry name="de">Überprüfen Sie Ihre Geräte und Ihren Verlauf</entry>
+        <entry name="bg">Проверете устройствата и историята си</entry>
+    </section>
     
     </config>
