@@ -1926,5 +1926,23 @@
         <entry name="de">Überprüfen Sie Ihre Geräte und Ihren Verlauf</entry>
         <entry name="bg">Проверете устройствата и историята си</entry>
     </section>
+
+    <section name="account">
+        <entry name="default">Account</entry>
+        <entry name="fr">Compte</entry>
+        <entry name="es">Cuenta</entry>
+        <entry name="pl">Konto</entry>
+        <entry name="de">Konto</entry>
+        <entry name="bg">Профил</entry>
+    </section>
+
+    <section name="sip_connection">
+        <entry name="default">SIP connection</entry>
+        <entry name="fr">Connexion SIP</entry>
+        <entry name="es">Conexión SIP</entry>
+        <entry name="pl">Połączenie SIP</entry>
+        <entry name="de">SIP-Verbindung</entry>
+        <entry name="bg">SIP връзка</entry>
+    </section>
     
     </config>
