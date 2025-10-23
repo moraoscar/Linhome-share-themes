@@ -1,6 +1,6 @@
 <config xmlns="http://www.linphone.org/xsds/lpconfig.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.linphone.org/xsds/lpconfig.xsd lpconfig.xsd">
 	<section name="colors">
-		<entry name="color_a">#ffff5e00</entry>
+		<entry name="color_a">#EC4286</entry>
 		<entry name="color_b">#444444</entry>
 		<entry name="color_c">#ffffff</entry>
 		<entry name="color_d">#f4f4f4</entry>
@@ -32,6 +32,8 @@
 		<entry name="bg_secondary_btn">#FFDEEB</entry>
 		<entry name="color_view_title">#B2B2B2</entry>
 		<entry name="color_text_label_input">#B1B1B1</entry>
+		<entry name="color_menu_sidebar">#232427</entry>
+		<entry name="color_separator_menu">#575757</entry>
 
 		<!-- Android specific -->
 		<entry name="notification_led_color">#ffff5e00</entry>
@@ -211,7 +213,7 @@
 		<entry name="font">Roboto-Bold</entry>
 		<entry name="size">20</entry>
 		<entry name="align">center</entry>
-		<entry name="allcaps">1</entry>
+		<entry name="allcaps">0</entry>
 	</section>
 	
 	<section name="textview-style.toolbar_action">
@@ -242,6 +244,20 @@
 		<entry name="size">15</entry>
 		<entry name="align">center</entry>
 	</section>
+
+	<section name="textview-style.view_main_title_start">
+		<entry name="text-color">color_b</entry>
+		<entry name="font">Roboto-Bold</entry>
+		<entry name="size">22</entry>
+		<entry name="align">start</entry>
+	</section>
+
+	<section name="textview-style.view_sub_title_start">
+		<entry name="text-color">color_b</entry>
+		<entry name="font">Roboto-Bold</entry>
+		<entry name="size">15</entry>
+		<entry name="align">start</entry>
+	</section>
 	
 	<section name="textview-style.view_device_info_type_name">
 		<entry name="text-color">color_b</entry>
@@ -256,6 +272,13 @@
 		<entry name="font">Roboto-Bold</entry>
 		<entry name="size">15</entry>
 		<entry name="align">center</entry>
+	</section>
+
+	<section name="textview-style.view_device_info_actions_title_start">
+		<entry name="text-color">color_b</entry>
+		<entry name="font">Roboto-Bold</entry>
+		<entry name="size">15</entry>
+		<entry name="align">start</entry>
 	</section>
 	
 	<section name="textview-style.view_device_info_name">

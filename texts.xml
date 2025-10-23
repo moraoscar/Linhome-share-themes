@@ -1194,7 +1194,7 @@
     
     <section name="new_device">
         <entry name="default">New device</entry>
-        <entry name="es">Nuevo dispositivo</entry>
+        <entry name="es">Nuevo dispositivo</entry>
         <entry name="fr">Nouvel appareil</entry>
         <entry name="pl">Nowe urządzenie</entry>
         <entry name="de">Neues Gerät</entry>
@@ -1432,7 +1432,7 @@
     
     <section name="delete_device">
         <entry name="default">Delete the device</entry>
-        <entry name="es">Eliminar</entry>
+        <entry name="es">Eliminar el dispositivo</entry>
         <entry name="fr">Supprimer l'appareil</entry>
         <entry name="pl">Usuń urządzenie</entry>
         <entry name="de">Lösche das Gerät</entry>
@@ -1488,7 +1488,7 @@
         <entry name="es">Política de privacidad</entry>
         <entry name="bg">Политика за поверителност</entry>
     </section>
-       <section name="privacy_policy_link">
+        <section name="privacy_policy_link">
         <entry name="default">https://www.linhome.org/privacy-policy</entry>
     </section>
 
@@ -1591,7 +1591,7 @@
     
     <section name="edit">
         <entry name="default">Edit</entry>
-        <entry name="es">Editar</entry>
+        <entry name="es">Editar</entry>
         <entry name="fr">Éditer</entry>
         <entry name="pl">Edytuj</entry>
         <entry name="de">Bearbeiten</entry>
@@ -1777,14 +1777,14 @@
         <entry name="bg">пропуснато повикване от {0}</entry>
     </section>
 
-     <section name="notif_accepted_elsewhere_call_title">
+    <section name="notif_accepted_elsewhere_call_title">
         <entry name="default">Call answered on another device.</entry>
         <entry name="fr">Appel répondu sur un autre appareil.</entry>
         <entry name="es">Llamada respondida en otro dispositivo.</entry>
         <entry name="bg">Повикването е прието на друго устройство.</entry>
     </section>
 
-      <section name="notif_declined_elsewhere_call_title">
+    <section name="notif_declined_elsewhere_call_title">
         <entry name="default">Call declined on another device.</entry>
         <entry name="fr">Appel décliné sur un autre appareil.</entry>
         <entry name="es">Llamada rechazada en otro dispositivo.</entry>
@@ -1889,6 +1889,15 @@
         <entry name="pl">Żądanie nie powiodło się. Spróbuj ponownie później lub skontaktuj się z zespołem pomocy Linhome.</entry>
         <entry name="de">Die Anforderung ist fehlgeschlagen. Versuchen Sie es später erneut oder wenden Sie sich an das Supportteam von Linhome.</entry>
         <entry name="bg">Заявката не бе успешна. Моля, опитайте отново по-късно или се свържете с екипа за поддръжка на Linhome.</entry>
+    </section>
+
+    <section name="menu">
+        <entry name="default">Menu</entry>
+        <entry name="fr">Menu</entry>
+        <entry name="es">Menú</entry>
+        <entry name="pl">Menu</entry>
+        <entry name="de">Menü</entry>
+        <entry name="bg">Меню</entry>
     </section>
     
     </config>
