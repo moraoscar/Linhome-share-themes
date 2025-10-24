@@ -34,7 +34,7 @@
 		<entry name="color_text_label_input">#B1B1B1</entry>
 		<entry name="color_menu_sidebar">#232427</entry>
 		<entry name="color_separator_menu">#575757</entry>
-
+		<entry name="color_bg_gradient">#F083AE</entry>
 		<!-- Android specific -->
 		<entry name="notification_led_color">#ffff5e00</entry>
 		<entry name="progress_bar">#ffb863</entry>
