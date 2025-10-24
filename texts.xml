@@ -6,12 +6,12 @@
     </section>
 
     <section name="splash_title">
-        <entry name="default">The white label app for IP intercom systems</entry>
-        <entry name="fr">L'app customisable pour les interphones IP</entry>
-        <entry name="es">La aplicación de marca blanca para sistemas de intercomunicación IP</entry>
-        <entry name="pl">Konfigurowalna aplikacja dla domofonów IP</entry>
-        <entry name="de">Die frei konfigurierbare App für IP-Gegensprechanlagen</entry>
-        <entry name="bg">Приложението с бял етикет за IP домофонни системи</entry>
+        <entry name="default">Experts in bridging distances</entry>
+        <entry name="fr">Experts pour combler les distances</entry>
+        <entry name="es">Expertos en acercar distancias</entry>
+        <entry name="pl">Eksperci w skracaniu dystansów</entry>
+        <entry name="de">Experten im Überbrücken von Distanzen</entry>
+        <entry name="bg">Експерти в преодоляването на разстояния</entry>
     </section>
 
     <section name="devices">
