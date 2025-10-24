@@ -1,0 +1,6 @@
+<svg id="burger_menu" xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39">
+  <circle id="Elipse_1" data-name="Elipse 1" cx="19.5" cy="19.5" r="19.5" fill="rgba(249,249,249,0.2)"/>
+  <g id="Grupo_1" data-name="Grupo 1">
+    <path id="Trazado_1" data-name="Trazado 1" d="M12,15a1,1,0,1,1,0-2H28a1,1,0,1,1,0,2Zm0,12a1,1,0,1,1,0-2H28a1,1,0,1,1,0,2Zm0-6a1,1,0,1,1,0-2H28a1,1,0,1,1,0,2Z" fill="#fff"/>
+  </g>
+</svg>

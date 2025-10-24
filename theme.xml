@@ -188,8 +188,15 @@
 	</section>
 
 	<section name="textview-style.tabbar_option">
-		<entry name="text-color">color_c</entry>
+		<entry name="text-color">color_secondary</entry>
 		<entry name="font">Roboto-Regular</entry>
+		<entry name="size">15</entry>
+		<entry name="align">start</entry>
+	</section>
+
+	<section name="textview-style.tabbar_option_selected">
+		<entry name="text-color">color_a</entry>
+		<entry name="font">Roboto-Bold</entry>
 		<entry name="size">15</entry>
 		<entry name="align">start</entry>
 	</section>
