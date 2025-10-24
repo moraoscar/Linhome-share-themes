@@ -165,7 +165,7 @@
 	<!-- TextView / UILabel styles textview-style.<key in app> values are optionnal hint-text-color also used for RadioButton in segmented-->
 
 	<section name="textview-style.splash_title">
-		<entry name="text-color">color_secondary</entry>
+		<entry name="text-color">color_c</entry>
 		<entry name="font">Roboto-Regular</entry> <!-- Font name must match name in ZIP or in Asset of the app. Asset is looked up first then zip -->
 		<entry name="size">15</entry>
 		<entry name="align">center</entry> <!--  supported values are : start (default), center, end. -->
